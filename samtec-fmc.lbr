@@ -1908,6 +1908,622 @@
 <text x="-10.16" y="53.848" size="1.27" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-52.578" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="BANK-80P-AB-FPGA">
+<pin name="GND@0" x="-20.32" y="50.8" length="middle"/>
+<pin name="DP1_M2C_P" x="-20.32" y="48.26" length="middle"/>
+<pin name="DP1_M2C_N" x="-20.32" y="45.72" length="middle"/>
+<pin name="GND@3" x="-20.32" y="43.18" length="middle"/>
+<pin name="GND@4" x="-20.32" y="40.64" length="middle"/>
+<pin name="DP2_M2C_P" x="-20.32" y="38.1" length="middle"/>
+<pin name="DP2_M2C_N" x="-20.32" y="35.56" length="middle"/>
+<pin name="GND@7" x="-20.32" y="33.02" length="middle"/>
+<pin name="GND@8" x="-20.32" y="30.48" length="middle"/>
+<pin name="DP3_M2C_P" x="-20.32" y="27.94" length="middle"/>
+<pin name="DP3_M2C_N" x="-20.32" y="25.4" length="middle"/>
+<pin name="GND@11" x="-20.32" y="22.86" length="middle"/>
+<pin name="GND@12" x="-20.32" y="20.32" length="middle"/>
+<pin name="DP4_M2C_P" x="-20.32" y="17.78" length="middle"/>
+<pin name="DP4_M2C_N" x="-20.32" y="15.24" length="middle"/>
+<pin name="GND@15" x="-20.32" y="12.7" length="middle"/>
+<pin name="GND@16" x="-20.32" y="10.16" length="middle"/>
+<pin name="DP5_M2C_P" x="-20.32" y="7.62" length="middle"/>
+<pin name="DP5_M2C_N" x="-20.32" y="5.08" length="middle"/>
+<pin name="GND@19" x="-20.32" y="2.54" length="middle"/>
+<pin name="GND@20" x="-20.32" y="0" length="middle"/>
+<pin name="DP1_C2M_P" x="-20.32" y="-2.54" length="middle"/>
+<pin name="DP1_C2M_N" x="-20.32" y="-5.08" length="middle"/>
+<pin name="GND@23" x="-20.32" y="-7.62" length="middle"/>
+<pin name="GND@24" x="-20.32" y="-10.16" length="middle"/>
+<pin name="DP2_C2M_P" x="-20.32" y="-12.7" length="middle"/>
+<pin name="DP2_C2M_N" x="-20.32" y="-15.24" length="middle"/>
+<pin name="GND@27" x="-20.32" y="-17.78" length="middle"/>
+<pin name="GND@28" x="-20.32" y="-20.32" length="middle"/>
+<pin name="DP3_C2M_P" x="-20.32" y="-22.86" length="middle"/>
+<pin name="DP3_C2M_N" x="-20.32" y="-25.4" length="middle"/>
+<pin name="GND@31" x="-20.32" y="-27.94" length="middle"/>
+<pin name="GND@32" x="-20.32" y="-30.48" length="middle"/>
+<pin name="DP4_C2M_P" x="-20.32" y="-33.02" length="middle"/>
+<pin name="DP4_C2M_N" x="-20.32" y="-35.56" length="middle"/>
+<pin name="GND@35" x="-20.32" y="-38.1" length="middle"/>
+<pin name="GND@36" x="-20.32" y="-40.64" length="middle"/>
+<pin name="DP5_C2M_P" x="-20.32" y="-43.18" length="middle"/>
+<pin name="DP5_C2M_N" x="-20.32" y="-45.72" length="middle"/>
+<pin name="GND@39" x="-20.32" y="-48.26" length="middle"/>
+<pin name="RES1" x="20.32" y="50.8" length="middle" rot="R180"/>
+<pin name="GND@1" x="20.32" y="48.26" length="middle" rot="R180"/>
+<pin name="GND@2" x="20.32" y="45.72" length="middle" rot="R180"/>
+<pin name="DP9_M2C_P" x="20.32" y="43.18" length="middle" rot="R180"/>
+<pin name="DP9_M2C_N" x="20.32" y="40.64" length="middle" rot="R180"/>
+<pin name="GND@5" x="20.32" y="38.1" length="middle" rot="R180"/>
+<pin name="GND@6" x="20.32" y="35.56" length="middle" rot="R180"/>
+<pin name="DP8_M2C_P" x="20.32" y="33.02" length="middle" rot="R180"/>
+<pin name="DP8_M2C_N" x="20.32" y="30.48" length="middle" rot="R180"/>
+<pin name="GND@9" x="20.32" y="27.94" length="middle" rot="R180"/>
+<pin name="GND@10" x="20.32" y="25.4" length="middle" rot="R180"/>
+<pin name="DP7_M2C_P" x="20.32" y="22.86" length="middle" rot="R180"/>
+<pin name="DP7_M2C_N" x="20.32" y="20.32" length="middle" rot="R180"/>
+<pin name="GND@13" x="20.32" y="17.78" length="middle" rot="R180"/>
+<pin name="GND@14" x="20.32" y="15.24" length="middle" rot="R180"/>
+<pin name="DP6_M2C_P" x="20.32" y="12.7" length="middle" rot="R180"/>
+<pin name="DP6_M2C_N" x="20.32" y="10.16" length="middle" rot="R180"/>
+<pin name="GND@17" x="20.32" y="7.62" length="middle" rot="R180"/>
+<pin name="GND@18" x="20.32" y="5.08" length="middle" rot="R180"/>
+<pin name="GBTCLK1_M2C_P" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="GBTCLK1_M2C_N" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="GND@21" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="GND@22" x="20.32" y="-5.08" length="middle" rot="R180"/>
+<pin name="DP9_C2M_P" x="20.32" y="-7.62" length="middle" rot="R180"/>
+<pin name="DP9_C2M_N" x="20.32" y="-10.16" length="middle" rot="R180"/>
+<pin name="GND@25" x="20.32" y="-12.7" length="middle" rot="R180"/>
+<pin name="GND@26" x="20.32" y="-15.24" length="middle" rot="R180"/>
+<pin name="DP8_C2M_P" x="20.32" y="-17.78" length="middle" rot="R180"/>
+<pin name="DP8_C2M_N" x="20.32" y="-20.32" length="middle" rot="R180"/>
+<pin name="GND@29" x="20.32" y="-22.86" length="middle" rot="R180"/>
+<pin name="GND@30" x="20.32" y="-25.4" length="middle" rot="R180"/>
+<pin name="DP7_C2M_P" x="20.32" y="-27.94" length="middle" rot="R180"/>
+<pin name="DP7_C2M_N" x="20.32" y="-30.48" length="middle" rot="R180"/>
+<pin name="GND@33" x="20.32" y="-33.02" length="middle" rot="R180"/>
+<pin name="GND@34" x="20.32" y="-35.56" length="middle" rot="R180"/>
+<pin name="DP6_C2M_P" x="20.32" y="-38.1" length="middle" rot="R180"/>
+<pin name="DP6_C2M_N" x="20.32" y="-40.64" length="middle" rot="R180"/>
+<pin name="GND@37" x="20.32" y="-43.18" length="middle" rot="R180"/>
+<pin name="GND@38" x="20.32" y="-45.72" length="middle" rot="R180"/>
+<pin name="RES0" x="20.32" y="-48.26" length="middle" rot="R180"/>
+<wire x1="-15.24" y1="53.34" x2="15.24" y2="53.34" width="0.254" layer="94"/>
+<wire x1="15.24" y1="53.34" x2="15.24" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-50.8" x2="-15.24" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-50.8" x2="-15.24" y2="53.34" width="0.254" layer="94"/>
+<text x="-15.24" y="53.848" size="1.27" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-52.578" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="BANK-80P-CD-FPGA">
+<pin name="GND@0" x="-20.32" y="50.8" length="middle"/>
+<pin name="DP0_C2M_P" x="-20.32" y="48.26" length="middle"/>
+<pin name="DP0_C2M_N" x="-20.32" y="45.72" length="middle"/>
+<pin name="GND@3" x="-20.32" y="43.18" length="middle"/>
+<pin name="GND@4" x="-20.32" y="40.64" length="middle"/>
+<pin name="DP0_M2C_P" x="-20.32" y="38.1" length="middle"/>
+<pin name="DP0_M2C_N" x="-20.32" y="35.56" length="middle"/>
+<pin name="GND@7" x="-20.32" y="33.02" length="middle"/>
+<pin name="GND@8" x="-20.32" y="30.48" length="middle"/>
+<pin name="LA06_P" x="-20.32" y="27.94" length="middle"/>
+<pin name="LA06_N" x="-20.32" y="25.4" length="middle"/>
+<pin name="GND@10" x="-20.32" y="22.86" length="middle"/>
+<pin name="GND@11" x="-20.32" y="20.32" length="middle"/>
+<pin name="LA10_P" x="-20.32" y="17.78" length="middle"/>
+<pin name="LA10_N" x="-20.32" y="15.24" length="middle"/>
+<pin name="GND@13" x="-20.32" y="12.7" length="middle"/>
+<pin name="GND@15" x="-20.32" y="10.16" length="middle"/>
+<pin name="LA14_P" x="-20.32" y="7.62" length="middle"/>
+<pin name="LA14_N" x="-20.32" y="5.08" length="middle"/>
+<pin name="GND@17" x="-20.32" y="2.54" length="middle"/>
+<pin name="GND@18" x="-20.32" y="0" length="middle"/>
+<pin name="LA18_P_CC" x="-20.32" y="-2.54" length="middle"/>
+<pin name="LA18_N_CC" x="-20.32" y="-5.08" length="middle"/>
+<pin name="GND@20" x="-20.32" y="-7.62" length="middle"/>
+<pin name="GND@21" x="-20.32" y="-10.16" length="middle"/>
+<pin name="LA27_P" x="-20.32" y="-12.7" length="middle"/>
+<pin name="LA27_N" x="-20.32" y="-15.24" length="middle"/>
+<pin name="GND@23" x="-20.32" y="-17.78" length="middle"/>
+<pin name="GND@25" x="-20.32" y="-20.32" length="middle"/>
+<pin name="SCL" x="-20.32" y="-22.86" length="middle"/>
+<pin name="SDA" x="-20.32" y="-25.4" length="middle"/>
+<pin name="GND@26" x="-20.32" y="-27.94" length="middle"/>
+<pin name="GND@27" x="-20.32" y="-30.48" length="middle"/>
+<pin name="GA0" x="-20.32" y="-33.02" length="middle"/>
+<pin name="12P0V@0" x="-20.32" y="-35.56" length="middle"/>
+<pin name="GND@28" x="-20.32" y="-38.1" length="middle"/>
+<pin name="12P0V@1" x="-20.32" y="-40.64" length="middle"/>
+<pin name="GND@30" x="-20.32" y="-43.18" length="middle"/>
+<pin name="3P3V@2" x="-20.32" y="-45.72" length="middle"/>
+<pin name="GND@32" x="-20.32" y="-48.26" length="middle"/>
+<pin name="PG_C2M" x="20.32" y="50.8" length="middle" rot="R180"/>
+<pin name="GND@1" x="20.32" y="48.26" length="middle" rot="R180"/>
+<pin name="GND@2" x="20.32" y="45.72" length="middle" rot="R180"/>
+<pin name="GBTCLK0_M2C_P" x="20.32" y="43.18" length="middle" rot="R180"/>
+<pin name="GBTCLK0_M2C_N" x="20.32" y="40.64" length="middle" rot="R180"/>
+<pin name="GND@5" x="20.32" y="38.1" length="middle" rot="R180"/>
+<pin name="GND@6" x="20.32" y="35.56" length="middle" rot="R180"/>
+<pin name="LA01_P_CC" x="20.32" y="33.02" length="middle" rot="R180"/>
+<pin name="LA01_N_CC" x="20.32" y="30.48" length="middle" rot="R180"/>
+<pin name="GND@9" x="20.32" y="27.94" length="middle" rot="R180"/>
+<pin name="LA05_P" x="20.32" y="25.4" length="middle" rot="R180"/>
+<pin name="LA05_N" x="20.32" y="22.86" length="middle" rot="R180"/>
+<pin name="GND@12" x="20.32" y="20.32" length="middle" rot="R180"/>
+<pin name="LA09_P" x="20.32" y="17.78" length="middle" rot="R180"/>
+<pin name="LA09_N" x="20.32" y="15.24" length="middle" rot="R180"/>
+<pin name="GND@14" x="20.32" y="12.7" length="middle" rot="R180"/>
+<pin name="LA13_P" x="20.32" y="10.16" length="middle" rot="R180"/>
+<pin name="LA13_N" x="20.32" y="7.62" length="middle" rot="R180"/>
+<pin name="GND@16" x="20.32" y="5.08" length="middle" rot="R180"/>
+<pin name="LA17_P_CC" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="LA17_N_CC" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="GND@19" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="LA23_P" x="20.32" y="-5.08" length="middle" rot="R180"/>
+<pin name="LA23_N" x="20.32" y="-7.62" length="middle" rot="R180"/>
+<pin name="GND@22" x="20.32" y="-10.16" length="middle" rot="R180"/>
+<pin name="LA26_P" x="20.32" y="-12.7" length="middle" rot="R180"/>
+<pin name="LA26_N" x="20.32" y="-15.24" length="middle" rot="R180"/>
+<pin name="GND@24" x="20.32" y="-17.78" length="middle" rot="R180"/>
+<pin name="TCK" x="20.32" y="-20.32" length="middle" rot="R180"/>
+<pin name="TDI" x="20.32" y="-22.86" length="middle" rot="R180"/>
+<pin name="TDO" x="20.32" y="-25.4" length="middle" rot="R180"/>
+<pin name="3P3VAUX" x="20.32" y="-27.94" length="middle" rot="R180"/>
+<pin name="TMS" x="20.32" y="-30.48" length="middle" rot="R180"/>
+<pin name="TRST_L" x="20.32" y="-33.02" length="middle" rot="R180"/>
+<pin name="GA1" x="20.32" y="-35.56" length="middle" rot="R180"/>
+<pin name="3P3V@0" x="20.32" y="-38.1" length="middle" rot="R180"/>
+<pin name="GND@29" x="20.32" y="-40.64" length="middle" rot="R180"/>
+<pin name="3P3V@1" x="20.32" y="-43.18" length="middle" rot="R180"/>
+<pin name="GND@31" x="20.32" y="-45.72" length="middle" rot="R180"/>
+<pin name="3P3V@3" x="20.32" y="-48.26" length="middle" rot="R180"/>
+<wire x1="-15.24" y1="53.34" x2="15.24" y2="53.34" width="0.254" layer="94"/>
+<wire x1="15.24" y1="53.34" x2="15.24" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-50.8" x2="-15.24" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-50.8" x2="-15.24" y2="53.34" width="0.254" layer="94"/>
+<text x="-15.24" y="53.848" size="1.27" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-52.578" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="BANK-80P-EF-FPGA">
+<pin name="GND@0" x="-20.32" y="50.8" length="middle"/>
+<pin name="HA01_P_CC" x="-20.32" y="48.26" length="middle"/>
+<pin name="HA01_N_CC" x="-20.32" y="45.72" length="middle"/>
+<pin name="GND@3" x="-20.32" y="43.18" length="middle"/>
+<pin name="GND@4" x="-20.32" y="40.64" length="middle"/>
+<pin name="HA05_P" x="-20.32" y="38.1" length="middle"/>
+<pin name="HA05_N" x="-20.32" y="35.56" length="middle"/>
+<pin name="GND@6" x="-20.32" y="33.02" length="middle"/>
+<pin name="HA09_P" x="-20.32" y="30.48" length="middle"/>
+<pin name="HA09_N" x="-20.32" y="27.94" length="middle"/>
+<pin name="GND@8" x="-20.32" y="25.4" length="middle"/>
+<pin name="HA13_P" x="-20.32" y="22.86" length="middle"/>
+<pin name="HA13_N" x="-20.32" y="20.32" length="middle"/>
+<pin name="GND@10" x="-20.32" y="17.78" length="middle"/>
+<pin name="HA16_P" x="-20.32" y="15.24" length="middle"/>
+<pin name="HA16_N" x="-20.32" y="12.7" length="middle"/>
+<pin name="GND@12" x="-20.32" y="10.16" length="middle"/>
+<pin name="HA20_P" x="-20.32" y="7.62" length="middle"/>
+<pin name="HA20_N" x="-20.32" y="5.08" length="middle"/>
+<pin name="GND@14" x="-20.32" y="2.54" length="middle"/>
+<pin name="HB03_P" x="-20.32" y="0" length="middle"/>
+<pin name="HB03_N" x="-20.32" y="-2.54" length="middle"/>
+<pin name="GND@16" x="-20.32" y="-5.08" length="middle"/>
+<pin name="HB05_P" x="-20.32" y="-7.62" length="middle"/>
+<pin name="HB05_N" x="-20.32" y="-10.16" length="middle"/>
+<pin name="GND@18" x="-20.32" y="-12.7" length="middle"/>
+<pin name="HB09_P" x="-20.32" y="-15.24" length="middle"/>
+<pin name="HB09_N" x="-20.32" y="-17.78" length="middle"/>
+<pin name="GND@20" x="-20.32" y="-20.32" length="middle"/>
+<pin name="HB13_P" x="-20.32" y="-22.86" length="middle"/>
+<pin name="HB13_N" x="-20.32" y="-25.4" length="middle"/>
+<pin name="GND@22" x="-20.32" y="-27.94" length="middle"/>
+<pin name="HB19_P" x="-20.32" y="-30.48" length="middle"/>
+<pin name="HB19_N" x="-20.32" y="-33.02" length="middle"/>
+<pin name="GND@24" x="-20.32" y="-35.56" length="middle"/>
+<pin name="HB21_P" x="-20.32" y="-38.1" length="middle"/>
+<pin name="HB21_N" x="-20.32" y="-40.64" length="middle"/>
+<pin name="GND@26" x="-20.32" y="-43.18" length="middle"/>
+<pin name="VADJ@0" x="-20.32" y="-45.72" length="middle"/>
+<pin name="GND@28" x="-20.32" y="-48.26" length="middle"/>
+<pin name="PG_M2C" x="20.32" y="50.8" length="middle" rot="R180"/>
+<pin name="GND@1" x="20.32" y="48.26" length="middle" rot="R180"/>
+<pin name="GND@2" x="20.32" y="45.72" length="middle" rot="R180"/>
+<pin name="HA00_P_CC" x="20.32" y="43.18" length="middle" rot="R180"/>
+<pin name="HA00_N_CC" x="20.32" y="40.64" length="middle" rot="R180"/>
+<pin name="GND@5" x="20.32" y="38.1" length="middle" rot="R180"/>
+<pin name="HA04_P" x="20.32" y="35.56" length="middle" rot="R180"/>
+<pin name="HA04_N" x="20.32" y="33.02" length="middle" rot="R180"/>
+<pin name="GND@7" x="20.32" y="30.48" length="middle" rot="R180"/>
+<pin name="HA08_P" x="20.32" y="27.94" length="middle" rot="R180"/>
+<pin name="HA08_N" x="20.32" y="25.4" length="middle" rot="R180"/>
+<pin name="GND@9" x="20.32" y="22.86" length="middle" rot="R180"/>
+<pin name="HA12_P" x="20.32" y="20.32" length="middle" rot="R180"/>
+<pin name="HA12_N" x="20.32" y="17.78" length="middle" rot="R180"/>
+<pin name="GND@11" x="20.32" y="15.24" length="middle" rot="R180"/>
+<pin name="HA15_P" x="20.32" y="12.7" length="middle" rot="R180"/>
+<pin name="HA15_N" x="20.32" y="10.16" length="middle" rot="R180"/>
+<pin name="GND@13" x="20.32" y="7.62" length="middle" rot="R180"/>
+<pin name="HA19_P" x="20.32" y="5.08" length="middle" rot="R180"/>
+<pin name="HA19_N" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="GND@15" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="HB02_P" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="HB02_N" x="20.32" y="-5.08" length="middle" rot="R180"/>
+<pin name="GND@17" x="20.32" y="-7.62" length="middle" rot="R180"/>
+<pin name="HB04_P" x="20.32" y="-10.16" length="middle" rot="R180"/>
+<pin name="HB04_N" x="20.32" y="-12.7" length="middle" rot="R180"/>
+<pin name="GND@19" x="20.32" y="-15.24" length="middle" rot="R180"/>
+<pin name="HB08_P" x="20.32" y="-17.78" length="middle" rot="R180"/>
+<pin name="HB08_N" x="20.32" y="-20.32" length="middle" rot="R180"/>
+<pin name="GND@21" x="20.32" y="-22.86" length="middle" rot="R180"/>
+<pin name="HB12_P" x="20.32" y="-25.4" length="middle" rot="R180"/>
+<pin name="HB12_N" x="20.32" y="-27.94" length="middle" rot="R180"/>
+<pin name="GND@23" x="20.32" y="-30.48" length="middle" rot="R180"/>
+<pin name="HB16_P" x="20.32" y="-33.02" length="middle" rot="R180"/>
+<pin name="HB16_N" x="20.32" y="-35.56" length="middle" rot="R180"/>
+<pin name="GND@25" x="20.32" y="-38.1" length="middle" rot="R180"/>
+<pin name="HB20_P" x="20.32" y="-40.64" length="middle" rot="R180"/>
+<pin name="HB20_N" x="20.32" y="-43.18" length="middle" rot="R180"/>
+<pin name="GND@27" x="20.32" y="-45.72" length="middle" rot="R180"/>
+<pin name="VADJ@1" x="20.32" y="-48.26" length="middle" rot="R180"/>
+<wire x1="-15.24" y1="53.34" x2="15.24" y2="53.34" width="0.254" layer="94"/>
+<wire x1="15.24" y1="53.34" x2="15.24" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-50.8" x2="-15.24" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-50.8" x2="-15.24" y2="53.34" width="0.254" layer="94"/>
+<text x="-15.24" y="53.848" size="1.27" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-52.578" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="BANK-80P-GH-FPGA">
+<pin name="GND@0" x="-20.32" y="50.8" length="middle"/>
+<pin name="CLK1_M2C_P" x="-20.32" y="48.26" length="middle"/>
+<pin name="CLK1_M2C_N" x="-20.32" y="45.72" length="middle"/>
+<pin name="GND@2" x="-20.32" y="43.18" length="middle"/>
+<pin name="GND@3" x="-20.32" y="40.64" length="middle"/>
+<pin name="LA00_P_CC" x="-20.32" y="38.1" length="middle"/>
+<pin name="LA00_N_CC" x="-20.32" y="35.56" length="middle"/>
+<pin name="GND@5" x="-20.32" y="33.02" length="middle"/>
+<pin name="LA03_P" x="-20.32" y="30.48" length="middle"/>
+<pin name="LA03_N" x="-20.32" y="27.94" length="middle"/>
+<pin name="GND@7" x="-20.32" y="25.4" length="middle"/>
+<pin name="LA08_P" x="-20.32" y="22.86" length="middle"/>
+<pin name="LA08_N" x="-20.32" y="20.32" length="middle"/>
+<pin name="GND@9" x="-20.32" y="17.78" length="middle"/>
+<pin name="LA12_P" x="-20.32" y="15.24" length="middle"/>
+<pin name="LA12_N" x="-20.32" y="12.7" length="middle"/>
+<pin name="GND@11" x="-20.32" y="10.16" length="middle"/>
+<pin name="LA16_P" x="-20.32" y="7.62" length="middle"/>
+<pin name="LA16_N" x="-20.32" y="5.08" length="middle"/>
+<pin name="GND@13" x="-20.32" y="2.54" length="middle"/>
+<pin name="LA20_P" x="-20.32" y="0" length="middle"/>
+<pin name="LA20_N" x="-20.32" y="-2.54" length="middle"/>
+<pin name="GND@15" x="-20.32" y="-5.08" length="middle"/>
+<pin name="LA22_P" x="-20.32" y="-7.62" length="middle"/>
+<pin name="LA22_N" x="-20.32" y="-10.16" length="middle"/>
+<pin name="GND@17" x="-20.32" y="-12.7" length="middle"/>
+<pin name="LA25_P" x="-20.32" y="-15.24" length="middle"/>
+<pin name="LA25_N" x="-20.32" y="-17.78" length="middle"/>
+<pin name="GND@19" x="-20.32" y="-20.32" length="middle"/>
+<pin name="LA29_P" x="-20.32" y="-22.86" length="middle"/>
+<pin name="LA29_N" x="-20.32" y="-25.4" length="middle"/>
+<pin name="GND@21" x="-20.32" y="-27.94" length="middle"/>
+<pin name="LA31_P" x="-20.32" y="-30.48" length="middle"/>
+<pin name="LA31_N" x="-20.32" y="-33.02" length="middle"/>
+<pin name="GND@23" x="-20.32" y="-35.56" length="middle"/>
+<pin name="LA33_P" x="-20.32" y="-38.1" length="middle"/>
+<pin name="LA33_N" x="-20.32" y="-40.64" length="middle"/>
+<pin name="GND@25" x="-20.32" y="-43.18" length="middle"/>
+<pin name="VADJ@0" x="-20.32" y="-45.72" length="middle"/>
+<pin name="GND@27" x="-20.32" y="-48.26" length="middle"/>
+<pin name="VREF_A_M2C" x="20.32" y="50.8" length="middle" rot="R180"/>
+<pin name="PRSNT_M2C_L" x="20.32" y="48.26" length="middle" rot="R180"/>
+<pin name="GND@1" x="20.32" y="45.72" length="middle" rot="R180"/>
+<pin name="CLK0_M2C_P" x="20.32" y="43.18" length="middle" rot="R180"/>
+<pin name="CLK0_M2C_N" x="20.32" y="40.64" length="middle" rot="R180"/>
+<pin name="GND@4" x="20.32" y="38.1" length="middle" rot="R180"/>
+<pin name="LA02_P" x="20.32" y="35.56" length="middle" rot="R180"/>
+<pin name="LA02_N" x="20.32" y="33.02" length="middle" rot="R180"/>
+<pin name="GND@6" x="20.32" y="30.48" length="middle" rot="R180"/>
+<pin name="LA04_P" x="20.32" y="27.94" length="middle" rot="R180"/>
+<pin name="LA04_N" x="20.32" y="25.4" length="middle" rot="R180"/>
+<pin name="GND@8" x="20.32" y="22.86" length="middle" rot="R180"/>
+<pin name="LA07_P" x="20.32" y="20.32" length="middle" rot="R180"/>
+<pin name="LA07_N" x="20.32" y="17.78" length="middle" rot="R180"/>
+<pin name="GND@10" x="20.32" y="15.24" length="middle" rot="R180"/>
+<pin name="LA11_P" x="20.32" y="12.7" length="middle" rot="R180"/>
+<pin name="LA11_N" x="20.32" y="10.16" length="middle" rot="R180"/>
+<pin name="GND@12" x="20.32" y="7.62" length="middle" rot="R180"/>
+<pin name="LA15_P" x="20.32" y="5.08" length="middle" rot="R180"/>
+<pin name="LA15_N" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="GND@14" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="LA19_P" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="LA19_N" x="20.32" y="-5.08" length="middle" rot="R180"/>
+<pin name="GND@16" x="20.32" y="-7.62" length="middle" rot="R180"/>
+<pin name="LA21_P" x="20.32" y="-10.16" length="middle" rot="R180"/>
+<pin name="LA21_N" x="20.32" y="-12.7" length="middle" rot="R180"/>
+<pin name="GND@18" x="20.32" y="-15.24" length="middle" rot="R180"/>
+<pin name="LA24_P" x="20.32" y="-17.78" length="middle" rot="R180"/>
+<pin name="LA24_N" x="20.32" y="-20.32" length="middle" rot="R180"/>
+<pin name="GND@20" x="20.32" y="-22.86" length="middle" rot="R180"/>
+<pin name="LA28_P" x="20.32" y="-25.4" length="middle" rot="R180"/>
+<pin name="LA28_N" x="20.32" y="-27.94" length="middle" rot="R180"/>
+<pin name="GND@22" x="20.32" y="-30.48" length="middle" rot="R180"/>
+<pin name="LA30_P" x="20.32" y="-33.02" length="middle" rot="R180"/>
+<pin name="LA30_N" x="20.32" y="-35.56" length="middle" rot="R180"/>
+<pin name="GND@24" x="20.32" y="-38.1" length="middle" rot="R180"/>
+<pin name="LA32_P" x="20.32" y="-40.64" length="middle" rot="R180"/>
+<pin name="LA32_N" x="20.32" y="-43.18" length="middle" rot="R180"/>
+<pin name="GND@26" x="20.32" y="-45.72" length="middle" rot="R180"/>
+<pin name="VADJ@1" x="20.32" y="-48.26" length="middle" rot="R180"/>
+<wire x1="-15.24" y1="53.34" x2="15.24" y2="53.34" width="0.254" layer="94"/>
+<wire x1="15.24" y1="53.34" x2="15.24" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-50.8" x2="-15.24" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-50.8" x2="-15.24" y2="53.34" width="0.254" layer="94"/>
+<text x="-15.24" y="53.848" size="1.27" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-52.832" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="BANK-80P-JK-FPGA">
+<pin name="GND@0" x="-20.32" y="50.8" length="middle"/>
+<pin name="CLK3_M2C_P" x="-20.32" y="48.26" length="middle"/>
+<pin name="CLK3_M2C_N" x="-20.32" y="45.72" length="middle"/>
+<pin name="GND@3" x="-20.32" y="43.18" length="middle"/>
+<pin name="GND@4" x="-20.32" y="40.64" length="middle"/>
+<pin name="HA03_P" x="-20.32" y="38.1" length="middle"/>
+<pin name="HA03_N" x="-20.32" y="35.56" length="middle"/>
+<pin name="GND@6" x="-20.32" y="33.02" length="middle"/>
+<pin name="HA07_P" x="-20.32" y="30.48" length="middle"/>
+<pin name="HA07_N" x="-20.32" y="27.94" length="middle"/>
+<pin name="GND@8" x="-20.32" y="25.4" length="middle"/>
+<pin name="HA11_P" x="-20.32" y="22.86" length="middle"/>
+<pin name="HA11_N" x="-20.32" y="20.32" length="middle"/>
+<pin name="GND@10" x="-20.32" y="17.78" length="middle"/>
+<pin name="HA14_P" x="-20.32" y="15.24" length="middle"/>
+<pin name="HA14_N" x="-20.32" y="12.7" length="middle"/>
+<pin name="GND@12" x="-20.32" y="10.16" length="middle"/>
+<pin name="HA18_P" x="-20.32" y="7.62" length="middle"/>
+<pin name="HA18_N" x="-20.32" y="5.08" length="middle"/>
+<pin name="GND@14" x="-20.32" y="2.54" length="middle"/>
+<pin name="HA22_P" x="-20.32" y="0" length="middle"/>
+<pin name="HA22_N" x="-20.32" y="-2.54" length="middle"/>
+<pin name="GND@16" x="-20.32" y="-5.08" length="middle"/>
+<pin name="HB01_P" x="-20.32" y="-7.62" length="middle"/>
+<pin name="HB01_N" x="-20.32" y="-10.16" length="middle"/>
+<pin name="GND@18" x="-20.32" y="-12.7" length="middle"/>
+<pin name="HB07_P" x="-20.32" y="-15.24" length="middle"/>
+<pin name="HB07_N" x="-20.32" y="-17.78" length="middle"/>
+<pin name="GND@20" x="-20.32" y="-20.32" length="middle"/>
+<pin name="HB11_P" x="-20.32" y="-22.86" length="middle"/>
+<pin name="HB11_N" x="-20.32" y="-25.4" length="middle"/>
+<pin name="GND@22" x="-20.32" y="-27.94" length="middle"/>
+<pin name="HB15_P" x="-20.32" y="-30.48" length="middle"/>
+<pin name="HB15_N" x="-20.32" y="-33.02" length="middle"/>
+<pin name="GND@24" x="-20.32" y="-35.56" length="middle"/>
+<pin name="HB18_P" x="-20.32" y="-38.1" length="middle"/>
+<pin name="HB18_N" x="-20.32" y="-40.64" length="middle"/>
+<pin name="GND@26" x="-20.32" y="-43.18" length="middle"/>
+<pin name="VIO_B_M2C@0" x="-20.32" y="-45.72" length="middle"/>
+<pin name="GND@28" x="-20.32" y="-48.26" length="middle"/>
+<pin name="VREF_B_M2C" x="20.32" y="50.8" length="middle" rot="R180"/>
+<pin name="GND@1" x="20.32" y="48.26" length="middle" rot="R180"/>
+<pin name="GND@2" x="20.32" y="45.72" length="middle" rot="R180"/>
+<pin name="CLK2_M2C_P" x="20.32" y="43.18" length="middle" rot="R180"/>
+<pin name="CLK2_M2C_N" x="20.32" y="40.64" length="middle" rot="R180"/>
+<pin name="GND@5" x="20.32" y="38.1" length="middle" rot="R180"/>
+<pin name="HA02_P" x="20.32" y="35.56" length="middle" rot="R180"/>
+<pin name="HA02_N" x="20.32" y="33.02" length="middle" rot="R180"/>
+<pin name="GND@7" x="20.32" y="30.48" length="middle" rot="R180"/>
+<pin name="HA06_P" x="20.32" y="27.94" length="middle" rot="R180"/>
+<pin name="HA06_N" x="20.32" y="25.4" length="middle" rot="R180"/>
+<pin name="GND@9" x="20.32" y="22.86" length="middle" rot="R180"/>
+<pin name="HA10_P" x="20.32" y="20.32" length="middle" rot="R180"/>
+<pin name="HA10_N" x="20.32" y="17.78" length="middle" rot="R180"/>
+<pin name="GND@11" x="20.32" y="15.24" length="middle" rot="R180"/>
+<pin name="HA17_P_CC" x="20.32" y="12.7" length="middle" rot="R180"/>
+<pin name="HA17_N_CC" x="20.32" y="10.16" length="middle" rot="R180"/>
+<pin name="GND@13" x="20.32" y="7.62" length="middle" rot="R180"/>
+<pin name="HA21_P" x="20.32" y="5.08" length="middle" rot="R180"/>
+<pin name="HA21_N" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="GND@15" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="HA23_P" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="HA23_N" x="20.32" y="-5.08" length="middle" rot="R180"/>
+<pin name="GND@17" x="20.32" y="-7.62" length="middle" rot="R180"/>
+<pin name="HB00_P_CC" x="20.32" y="-10.16" length="middle" rot="R180"/>
+<pin name="HB00_N_CC" x="20.32" y="-12.7" length="middle" rot="R180"/>
+<pin name="GND@19" x="20.32" y="-15.24" length="middle" rot="R180"/>
+<pin name="HB06_P_CC" x="20.32" y="-17.78" length="middle" rot="R180"/>
+<pin name="HB06_N_CC" x="20.32" y="-20.32" length="middle" rot="R180"/>
+<pin name="GND@21" x="20.32" y="-22.86" length="middle" rot="R180"/>
+<pin name="HB10_P" x="20.32" y="-25.4" length="middle" rot="R180"/>
+<pin name="HB10_N" x="20.32" y="-27.94" length="middle" rot="R180"/>
+<pin name="GND@23" x="20.32" y="-30.48" length="middle" rot="R180"/>
+<pin name="HB14_P" x="20.32" y="-33.02" length="middle" rot="R180"/>
+<pin name="HB14_N" x="20.32" y="-35.56" length="middle" rot="R180"/>
+<pin name="GND@25" x="20.32" y="-38.1" length="middle" rot="R180"/>
+<pin name="HB17_P_CC" x="20.32" y="-40.64" length="middle" rot="R180"/>
+<pin name="HB17_N_CC" x="20.32" y="-43.18" length="middle" rot="R180"/>
+<pin name="GND@27" x="20.32" y="-45.72" length="middle" rot="R180"/>
+<pin name="VIO_B_M2C@1" x="20.32" y="-48.26" length="middle" rot="R180"/>
+<wire x1="-15.24" y1="53.34" x2="15.24" y2="53.34" width="0.254" layer="94"/>
+<wire x1="15.24" y1="53.34" x2="15.24" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-50.8" x2="-15.24" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-50.8" x2="-15.24" y2="53.34" width="0.254" layer="94"/>
+<text x="-15.24" y="53.848" size="1.27" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-52.578" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="BANK-80P-CD-UMFT601X">
+<pin name="GND@0" x="-20.32" y="50.8" length="middle"/>
+<pin name="C2" x="-20.32" y="48.26" length="middle"/>
+<pin name="C3" x="-20.32" y="45.72" length="middle"/>
+<pin name="GND@3" x="-20.32" y="43.18" length="middle"/>
+<pin name="GND@4" x="-20.32" y="40.64" length="middle"/>
+<pin name="C6" x="-20.32" y="38.1" length="middle"/>
+<pin name="C7" x="-20.32" y="35.56" length="middle"/>
+<pin name="GND@7" x="-20.32" y="33.02" length="middle"/>
+<pin name="GND@8" x="-20.32" y="30.48" length="middle"/>
+<pin name="C10" x="-20.32" y="27.94" length="middle"/>
+<pin name="C11" x="-20.32" y="25.4" length="middle"/>
+<pin name="GND@10" x="-20.32" y="22.86" length="middle"/>
+<pin name="GND@11" x="-20.32" y="20.32" length="middle"/>
+<pin name="WAKE_UP_N" x="-20.32" y="17.78" length="middle"/>
+<pin name="RESET_N" x="-20.32" y="15.24" length="middle"/>
+<pin name="GND@13" x="-20.32" y="12.7" length="middle"/>
+<pin name="GND@15" x="-20.32" y="10.16" length="middle"/>
+<pin name="GPIO_0" x="-20.32" y="7.62" length="middle"/>
+<pin name="GPIO_1" x="-20.32" y="5.08" length="middle"/>
+<pin name="GND@17" x="-20.32" y="2.54" length="middle"/>
+<pin name="GND@18" x="-20.32" y="0" length="middle"/>
+<pin name="D_CLK" x="-20.32" y="-2.54" length="middle"/>
+<pin name="C23" x="-20.32" y="-5.08" length="middle"/>
+<pin name="GND@20" x="-20.32" y="-7.62" length="middle"/>
+<pin name="GND@21" x="-20.32" y="-10.16" length="middle"/>
+<pin name="DATA18" x="-20.32" y="-12.7" length="middle"/>
+<pin name="DATA16" x="-20.32" y="-15.24" length="middle"/>
+<pin name="GND@23" x="-20.32" y="-17.78" length="middle"/>
+<pin name="GND@25" x="-20.32" y="-20.32" length="middle"/>
+<pin name="C30" x="-20.32" y="-22.86" length="middle"/>
+<pin name="C31" x="-20.32" y="-25.4" length="middle"/>
+<pin name="GND@26" x="-20.32" y="-27.94" length="middle"/>
+<pin name="GND@27" x="-20.32" y="-30.48" length="middle"/>
+<pin name="C34" x="-20.32" y="-33.02" length="middle"/>
+<pin name="C35" x="-20.32" y="-35.56" length="middle"/>
+<pin name="GND@28" x="-20.32" y="-38.1" length="middle"/>
+<pin name="C37" x="-20.32" y="-40.64" length="middle"/>
+<pin name="GND@30" x="-20.32" y="-43.18" length="middle"/>
+<pin name="3P3V@2" x="-20.32" y="-45.72" length="middle"/>
+<pin name="GND@32" x="-20.32" y="-48.26" length="middle"/>
+<pin name="D1" x="20.32" y="50.8" length="middle" rot="R180"/>
+<pin name="GND@1" x="20.32" y="48.26" length="middle" rot="R180"/>
+<pin name="GND@2" x="20.32" y="45.72" length="middle" rot="R180"/>
+<pin name="D4" x="20.32" y="43.18" length="middle" rot="R180"/>
+<pin name="D5" x="20.32" y="40.64" length="middle" rot="R180"/>
+<pin name="GND@5" x="20.32" y="38.1" length="middle" rot="R180"/>
+<pin name="GND@6" x="20.32" y="35.56" length="middle" rot="R180"/>
+<pin name="D8" x="20.32" y="33.02" length="middle" rot="R180"/>
+<pin name="D9" x="20.32" y="30.48" length="middle" rot="R180"/>
+<pin name="GND@9" x="20.32" y="27.94" length="middle" rot="R180"/>
+<pin name="D11" x="20.32" y="25.4" length="middle" rot="R180"/>
+<pin name="D12" x="20.32" y="22.86" length="middle" rot="R180"/>
+<pin name="GND@12" x="20.32" y="20.32" length="middle" rot="R180"/>
+<pin name="BE_N_3" x="20.32" y="17.78" length="middle" rot="R180"/>
+<pin name="BE_N_2" x="20.32" y="15.24" length="middle" rot="R180"/>
+<pin name="GND@14" x="20.32" y="12.7" length="middle" rot="R180"/>
+<pin name="D17" x="20.32" y="10.16" length="middle" rot="R180"/>
+<pin name="D18" x="20.32" y="7.62" length="middle" rot="R180"/>
+<pin name="GND@16" x="20.32" y="5.08" length="middle" rot="R180"/>
+<pin name="DATA31" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="DATA30" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="GND@19" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="DATA25" x="20.32" y="-5.08" length="middle" rot="R180"/>
+<pin name="DATA24" x="20.32" y="-7.62" length="middle" rot="R180"/>
+<pin name="GND@22" x="20.32" y="-10.16" length="middle" rot="R180"/>
+<pin name="DATA19" x="20.32" y="-12.7" length="middle" rot="R180"/>
+<pin name="DATA17" x="20.32" y="-15.24" length="middle" rot="R180"/>
+<pin name="GND@24" x="20.32" y="-17.78" length="middle" rot="R180"/>
+<pin name="D29" x="20.32" y="-20.32" length="middle" rot="R180"/>
+<pin name="D30" x="20.32" y="-22.86" length="middle" rot="R180"/>
+<pin name="D31" x="20.32" y="-25.4" length="middle" rot="R180"/>
+<pin name="D32" x="20.32" y="-27.94" length="middle" rot="R180"/>
+<pin name="D33" x="20.32" y="-30.48" length="middle" rot="R180"/>
+<pin name="D34" x="20.32" y="-33.02" length="middle" rot="R180"/>
+<pin name="D35" x="20.32" y="-35.56" length="middle" rot="R180"/>
+<pin name="3P3V@0" x="20.32" y="-38.1" length="middle" rot="R180"/>
+<pin name="GND@29" x="20.32" y="-40.64" length="middle" rot="R180"/>
+<pin name="3P3V@1" x="20.32" y="-43.18" length="middle" rot="R180"/>
+<pin name="GND@31" x="20.32" y="-45.72" length="middle" rot="R180"/>
+<pin name="3P3V@3" x="20.32" y="-48.26" length="middle" rot="R180"/>
+<wire x1="-15.24" y1="53.34" x2="15.24" y2="53.34" width="0.254" layer="94"/>
+<wire x1="15.24" y1="53.34" x2="15.24" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-50.8" x2="-15.24" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-50.8" x2="-15.24" y2="53.34" width="0.254" layer="94"/>
+<text x="-15.24" y="53.848" size="1.27" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-52.578" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="BANK-80P-GH-UMFT601X">
+<pin name="GND@0" x="-20.32" y="50.8" length="middle"/>
+<pin name="G2" x="-20.32" y="48.26" length="middle"/>
+<pin name="G3" x="-20.32" y="45.72" length="middle"/>
+<pin name="GND@2" x="-20.32" y="43.18" length="middle"/>
+<pin name="GND@3" x="-20.32" y="40.64" length="middle"/>
+<pin name="OE_N" x="-20.32" y="38.1" length="middle"/>
+<pin name="RD_N" x="-20.32" y="35.56" length="middle"/>
+<pin name="GND@5" x="-20.32" y="33.02" length="middle"/>
+<pin name="G9" x="-20.32" y="30.48" length="middle"/>
+<pin name="G10" x="-20.32" y="27.94" length="middle"/>
+<pin name="GND@7" x="-20.32" y="25.4" length="middle"/>
+<pin name="WR_N" x="-20.32" y="22.86" length="middle"/>
+<pin name="SIWU_N" x="-20.32" y="20.32" length="middle"/>
+<pin name="GND@9" x="-20.32" y="17.78" length="middle"/>
+<pin name="G15" x="-20.32" y="15.24" length="middle"/>
+<pin name="G16" x="-20.32" y="12.7" length="middle"/>
+<pin name="GND@11" x="-20.32" y="10.16" length="middle"/>
+<pin name="G18" x="-20.32" y="7.62" length="middle"/>
+<pin name="G19" x="-20.32" y="5.08" length="middle"/>
+<pin name="GND@13" x="-20.32" y="2.54" length="middle"/>
+<pin name="DATA29" x="-20.32" y="0" length="middle"/>
+<pin name="DATA28" x="-20.32" y="-2.54" length="middle"/>
+<pin name="GND@15" x="-20.32" y="-5.08" length="middle"/>
+<pin name="DATA23" x="-20.32" y="-7.62" length="middle"/>
+<pin name="DATA21" x="-20.32" y="-10.16" length="middle"/>
+<pin name="GND@17" x="-20.32" y="-12.7" length="middle"/>
+<pin name="DATA15" x="-20.32" y="-15.24" length="middle"/>
+<pin name="DATA13" x="-20.32" y="-17.78" length="middle"/>
+<pin name="GND@19" x="-20.32" y="-20.32" length="middle"/>
+<pin name="DATA11" x="-20.32" y="-22.86" length="middle"/>
+<pin name="DATA9" x="-20.32" y="-25.4" length="middle"/>
+<pin name="GND@21" x="-20.32" y="-27.94" length="middle"/>
+<pin name="DATA7" x="-20.32" y="-30.48" length="middle"/>
+<pin name="DATA5" x="-20.32" y="-33.02" length="middle"/>
+<pin name="GND@23" x="-20.32" y="-35.56" length="middle"/>
+<pin name="DATA3" x="-20.32" y="-38.1" length="middle"/>
+<pin name="DATA1" x="-20.32" y="-40.64" length="middle"/>
+<pin name="GND@25" x="-20.32" y="-43.18" length="middle"/>
+<pin name="VADJ@0" x="-20.32" y="-45.72" length="middle"/>
+<pin name="GND@27" x="-20.32" y="-48.26" length="middle"/>
+<pin name="H1" x="20.32" y="50.8" length="middle" rot="R180"/>
+<pin name="H2" x="20.32" y="48.26" length="middle" rot="R180"/>
+<pin name="GND@1" x="20.32" y="45.72" length="middle" rot="R180"/>
+<pin name="H4" x="20.32" y="43.18" length="middle" rot="R180"/>
+<pin name="H5" x="20.32" y="40.64" length="middle" rot="R180"/>
+<pin name="GND@4" x="20.32" y="38.1" length="middle" rot="R180"/>
+<pin name="H7" x="20.32" y="35.56" length="middle" rot="R180"/>
+<pin name="H8" x="20.32" y="33.02" length="middle" rot="R180"/>
+<pin name="GND@6" x="20.32" y="30.48" length="middle" rot="R180"/>
+<pin name="H10" x="20.32" y="27.94" length="middle" rot="R180"/>
+<pin name="H11" x="20.32" y="25.4" length="middle" rot="R180"/>
+<pin name="GND@8" x="20.32" y="22.86" length="middle" rot="R180"/>
+<pin name="RXF_N" x="20.32" y="20.32" length="middle" rot="R180"/>
+<pin name="TXE_N" x="20.32" y="17.78" length="middle" rot="R180"/>
+<pin name="GND@10" x="20.32" y="15.24" length="middle" rot="R180"/>
+<pin name="H16" x="20.32" y="12.7" length="middle" rot="R180"/>
+<pin name="H17" x="20.32" y="10.16" length="middle" rot="R180"/>
+<pin name="GND@12" x="20.32" y="7.62" length="middle" rot="R180"/>
+<pin name="BE_N_1" x="20.32" y="5.08" length="middle" rot="R180"/>
+<pin name="BE_N_0" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="GND@14" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="DATA27" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="DATA26" x="20.32" y="-5.08" length="middle" rot="R180"/>
+<pin name="GND@16" x="20.32" y="-7.62" length="middle" rot="R180"/>
+<pin name="DATA22" x="20.32" y="-10.16" length="middle" rot="R180"/>
+<pin name="DATA20" x="20.32" y="-12.7" length="middle" rot="R180"/>
+<pin name="GND@18" x="20.32" y="-15.24" length="middle" rot="R180"/>
+<pin name="DATA14" x="20.32" y="-17.78" length="middle" rot="R180"/>
+<pin name="DATA12" x="20.32" y="-20.32" length="middle" rot="R180"/>
+<pin name="GND@20" x="20.32" y="-22.86" length="middle" rot="R180"/>
+<pin name="DATA10" x="20.32" y="-25.4" length="middle" rot="R180"/>
+<pin name="DATA8" x="20.32" y="-27.94" length="middle" rot="R180"/>
+<pin name="GND@22" x="20.32" y="-30.48" length="middle" rot="R180"/>
+<pin name="DATA6" x="20.32" y="-33.02" length="middle" rot="R180"/>
+<pin name="DATA4" x="20.32" y="-35.56" length="middle" rot="R180"/>
+<pin name="GND@24" x="20.32" y="-38.1" length="middle" rot="R180"/>
+<pin name="DATA2" x="20.32" y="-40.64" length="middle" rot="R180"/>
+<pin name="DATA0" x="20.32" y="-43.18" length="middle" rot="R180"/>
+<pin name="GND@26" x="20.32" y="-45.72" length="middle" rot="R180"/>
+<pin name="VADJ@1" x="20.32" y="-48.26" length="middle" rot="R180"/>
+<wire x1="-15.24" y1="53.34" x2="15.24" y2="53.34" width="0.254" layer="94"/>
+<wire x1="15.24" y1="53.34" x2="15.24" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-50.8" x2="-15.24" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-50.8" x2="-15.24" y2="53.34" width="0.254" layer="94"/>
+<text x="-15.24" y="53.848" size="1.27" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-52.832" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FMC-LPC160" prefix="ZED">
@@ -3074,6 +3690,1521 @@ ASP-134602-01 	FMC Connector, lead free, (HPC), 400 I/O, male 	8.50 mm&lt;br&gt;
 <connect gate="G$5" pin="K7" pad="K7"/>
 <connect gate="G$5" pin="K8" pad="K8"/>
 <connect gate="G$5" pin="K9" pad="K9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FMC-HPC400-FPGA">
+<description>ASP-134488-01 	FMC Connector, lead free, (HPC), 400 I/O, male 	10 mm&lt;br&gt;
+ASP-134602-01 	FMC Connector, lead free, (HPC), 400 I/O, male 	8.50 mm&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="BANK-80P-AB-FPGA" x="-86.36" y="0"/>
+<gate name="G$2" symbol="BANK-80P-CD-FPGA" x="-43.18" y="0"/>
+<gate name="G$3" symbol="BANK-80P-EF-FPGA" x="0" y="0"/>
+<gate name="G$4" symbol="BANK-80P-GH-FPGA" x="43.18" y="0"/>
+<gate name="G$5" symbol="BANK-80P-JK-FPGA" x="86.36" y="0"/>
+</gates>
+<devices>
+<device name="-FEMALE" package="ASP-134486-01">
+<connects>
+<connect gate="G$1" pin="DP1_C2M_N" pad="A23"/>
+<connect gate="G$1" pin="DP1_C2M_P" pad="A22"/>
+<connect gate="G$1" pin="DP1_M2C_N" pad="A3"/>
+<connect gate="G$1" pin="DP1_M2C_P" pad="A2"/>
+<connect gate="G$1" pin="DP2_C2M_N" pad="A27"/>
+<connect gate="G$1" pin="DP2_C2M_P" pad="A26"/>
+<connect gate="G$1" pin="DP2_M2C_N" pad="A7"/>
+<connect gate="G$1" pin="DP2_M2C_P" pad="A6"/>
+<connect gate="G$1" pin="DP3_C2M_N" pad="A31"/>
+<connect gate="G$1" pin="DP3_C2M_P" pad="A30"/>
+<connect gate="G$1" pin="DP3_M2C_N" pad="A11"/>
+<connect gate="G$1" pin="DP3_M2C_P" pad="A10"/>
+<connect gate="G$1" pin="DP4_C2M_N" pad="A35"/>
+<connect gate="G$1" pin="DP4_C2M_P" pad="A34"/>
+<connect gate="G$1" pin="DP4_M2C_N" pad="A15"/>
+<connect gate="G$1" pin="DP4_M2C_P" pad="A14"/>
+<connect gate="G$1" pin="DP5_C2M_N" pad="A39"/>
+<connect gate="G$1" pin="DP5_C2M_P" pad="A38"/>
+<connect gate="G$1" pin="DP5_M2C_N" pad="A19"/>
+<connect gate="G$1" pin="DP5_M2C_P" pad="A18"/>
+<connect gate="G$1" pin="DP6_C2M_N" pad="B37"/>
+<connect gate="G$1" pin="DP6_C2M_P" pad="B36"/>
+<connect gate="G$1" pin="DP6_M2C_N" pad="B17"/>
+<connect gate="G$1" pin="DP6_M2C_P" pad="B16"/>
+<connect gate="G$1" pin="DP7_C2M_N" pad="B33"/>
+<connect gate="G$1" pin="DP7_C2M_P" pad="B32"/>
+<connect gate="G$1" pin="DP7_M2C_N" pad="B13"/>
+<connect gate="G$1" pin="DP7_M2C_P" pad="B12"/>
+<connect gate="G$1" pin="DP8_C2M_N" pad="B29"/>
+<connect gate="G$1" pin="DP8_C2M_P" pad="B28"/>
+<connect gate="G$1" pin="DP8_M2C_N" pad="B9"/>
+<connect gate="G$1" pin="DP8_M2C_P" pad="B8"/>
+<connect gate="G$1" pin="DP9_C2M_N" pad="B25"/>
+<connect gate="G$1" pin="DP9_C2M_P" pad="B24"/>
+<connect gate="G$1" pin="DP9_M2C_N" pad="B5"/>
+<connect gate="G$1" pin="DP9_M2C_P" pad="B4"/>
+<connect gate="G$1" pin="GBTCLK1_M2C_N" pad="B21"/>
+<connect gate="G$1" pin="GBTCLK1_M2C_P" pad="B20"/>
+<connect gate="G$1" pin="GND@0" pad="A1"/>
+<connect gate="G$1" pin="GND@1" pad="B2"/>
+<connect gate="G$1" pin="GND@10" pad="B11"/>
+<connect gate="G$1" pin="GND@11" pad="A12"/>
+<connect gate="G$1" pin="GND@12" pad="A13"/>
+<connect gate="G$1" pin="GND@13" pad="B14"/>
+<connect gate="G$1" pin="GND@14" pad="B15"/>
+<connect gate="G$1" pin="GND@15" pad="A16"/>
+<connect gate="G$1" pin="GND@16" pad="A17"/>
+<connect gate="G$1" pin="GND@17" pad="B18"/>
+<connect gate="G$1" pin="GND@18" pad="B19"/>
+<connect gate="G$1" pin="GND@19" pad="A20"/>
+<connect gate="G$1" pin="GND@2" pad="B3"/>
+<connect gate="G$1" pin="GND@20" pad="A21"/>
+<connect gate="G$1" pin="GND@21" pad="B22"/>
+<connect gate="G$1" pin="GND@22" pad="B23"/>
+<connect gate="G$1" pin="GND@23" pad="A24"/>
+<connect gate="G$1" pin="GND@24" pad="A25"/>
+<connect gate="G$1" pin="GND@25" pad="B26"/>
+<connect gate="G$1" pin="GND@26" pad="B27"/>
+<connect gate="G$1" pin="GND@27" pad="A28"/>
+<connect gate="G$1" pin="GND@28" pad="A29"/>
+<connect gate="G$1" pin="GND@29" pad="B30"/>
+<connect gate="G$1" pin="GND@3" pad="A4"/>
+<connect gate="G$1" pin="GND@30" pad="B31"/>
+<connect gate="G$1" pin="GND@31" pad="A32"/>
+<connect gate="G$1" pin="GND@32" pad="A33"/>
+<connect gate="G$1" pin="GND@33" pad="B34"/>
+<connect gate="G$1" pin="GND@34" pad="B35"/>
+<connect gate="G$1" pin="GND@35" pad="A36"/>
+<connect gate="G$1" pin="GND@36" pad="A37"/>
+<connect gate="G$1" pin="GND@37" pad="B38"/>
+<connect gate="G$1" pin="GND@38" pad="B39"/>
+<connect gate="G$1" pin="GND@39" pad="A40"/>
+<connect gate="G$1" pin="GND@4" pad="A5"/>
+<connect gate="G$1" pin="GND@5" pad="B6"/>
+<connect gate="G$1" pin="GND@6" pad="B7"/>
+<connect gate="G$1" pin="GND@7" pad="A8"/>
+<connect gate="G$1" pin="GND@8" pad="A9"/>
+<connect gate="G$1" pin="GND@9" pad="B10"/>
+<connect gate="G$1" pin="RES0" pad="B40"/>
+<connect gate="G$1" pin="RES1" pad="B1"/>
+<connect gate="G$2" pin="12P0V@0" pad="C35"/>
+<connect gate="G$2" pin="12P0V@1" pad="C37"/>
+<connect gate="G$2" pin="3P3V@0" pad="D36"/>
+<connect gate="G$2" pin="3P3V@1" pad="D38"/>
+<connect gate="G$2" pin="3P3V@2" pad="C39"/>
+<connect gate="G$2" pin="3P3V@3" pad="D40"/>
+<connect gate="G$2" pin="3P3VAUX" pad="D32"/>
+<connect gate="G$2" pin="DP0_C2M_N" pad="C3"/>
+<connect gate="G$2" pin="DP0_C2M_P" pad="C2"/>
+<connect gate="G$2" pin="DP0_M2C_N" pad="C7"/>
+<connect gate="G$2" pin="DP0_M2C_P" pad="C6"/>
+<connect gate="G$2" pin="GA0" pad="C34"/>
+<connect gate="G$2" pin="GA1" pad="D35"/>
+<connect gate="G$2" pin="GBTCLK0_M2C_N" pad="D5"/>
+<connect gate="G$2" pin="GBTCLK0_M2C_P" pad="D4"/>
+<connect gate="G$2" pin="GND@0" pad="C1"/>
+<connect gate="G$2" pin="GND@1" pad="D2"/>
+<connect gate="G$2" pin="GND@10" pad="C12"/>
+<connect gate="G$2" pin="GND@11" pad="C13"/>
+<connect gate="G$2" pin="GND@12" pad="D13"/>
+<connect gate="G$2" pin="GND@13" pad="C16"/>
+<connect gate="G$2" pin="GND@14" pad="D16"/>
+<connect gate="G$2" pin="GND@15" pad="C17"/>
+<connect gate="G$2" pin="GND@16" pad="D19"/>
+<connect gate="G$2" pin="GND@17" pad="C20"/>
+<connect gate="G$2" pin="GND@18" pad="C21"/>
+<connect gate="G$2" pin="GND@19" pad="D22"/>
+<connect gate="G$2" pin="GND@2" pad="D3"/>
+<connect gate="G$2" pin="GND@20" pad="C24"/>
+<connect gate="G$2" pin="GND@21" pad="C25"/>
+<connect gate="G$2" pin="GND@22" pad="D25"/>
+<connect gate="G$2" pin="GND@23" pad="C28"/>
+<connect gate="G$2" pin="GND@24" pad="D28"/>
+<connect gate="G$2" pin="GND@25" pad="C29"/>
+<connect gate="G$2" pin="GND@26" pad="C32"/>
+<connect gate="G$2" pin="GND@27" pad="C33"/>
+<connect gate="G$2" pin="GND@28" pad="C36"/>
+<connect gate="G$2" pin="GND@29" pad="D37"/>
+<connect gate="G$2" pin="GND@3" pad="C4"/>
+<connect gate="G$2" pin="GND@30" pad="C38"/>
+<connect gate="G$2" pin="GND@31" pad="D39"/>
+<connect gate="G$2" pin="GND@32" pad="C40"/>
+<connect gate="G$2" pin="GND@4" pad="C5"/>
+<connect gate="G$2" pin="GND@5" pad="D6"/>
+<connect gate="G$2" pin="GND@6" pad="D7"/>
+<connect gate="G$2" pin="GND@7" pad="C8"/>
+<connect gate="G$2" pin="GND@8" pad="C9"/>
+<connect gate="G$2" pin="GND@9" pad="D10"/>
+<connect gate="G$2" pin="LA01_N_CC" pad="D9"/>
+<connect gate="G$2" pin="LA01_P_CC" pad="D8"/>
+<connect gate="G$2" pin="LA05_N" pad="D12"/>
+<connect gate="G$2" pin="LA05_P" pad="D11"/>
+<connect gate="G$2" pin="LA06_N" pad="C11"/>
+<connect gate="G$2" pin="LA06_P" pad="C10"/>
+<connect gate="G$2" pin="LA09_N" pad="D15"/>
+<connect gate="G$2" pin="LA09_P" pad="D14"/>
+<connect gate="G$2" pin="LA10_N" pad="C15"/>
+<connect gate="G$2" pin="LA10_P" pad="C14"/>
+<connect gate="G$2" pin="LA13_N" pad="D18"/>
+<connect gate="G$2" pin="LA13_P" pad="D17"/>
+<connect gate="G$2" pin="LA14_N" pad="C19"/>
+<connect gate="G$2" pin="LA14_P" pad="C18"/>
+<connect gate="G$2" pin="LA17_N_CC" pad="D21"/>
+<connect gate="G$2" pin="LA17_P_CC" pad="D20"/>
+<connect gate="G$2" pin="LA18_N_CC" pad="C23"/>
+<connect gate="G$2" pin="LA18_P_CC" pad="C22"/>
+<connect gate="G$2" pin="LA23_N" pad="D24"/>
+<connect gate="G$2" pin="LA23_P" pad="D23"/>
+<connect gate="G$2" pin="LA26_N" pad="D27"/>
+<connect gate="G$2" pin="LA26_P" pad="D26"/>
+<connect gate="G$2" pin="LA27_N" pad="C27"/>
+<connect gate="G$2" pin="LA27_P" pad="C26"/>
+<connect gate="G$2" pin="PG_C2M" pad="D1"/>
+<connect gate="G$2" pin="SCL" pad="C30"/>
+<connect gate="G$2" pin="SDA" pad="C31"/>
+<connect gate="G$2" pin="TCK" pad="D29"/>
+<connect gate="G$2" pin="TDI" pad="D30"/>
+<connect gate="G$2" pin="TDO" pad="D31"/>
+<connect gate="G$2" pin="TMS" pad="D33"/>
+<connect gate="G$2" pin="TRST_L" pad="D34"/>
+<connect gate="G$3" pin="GND@0" pad="E1"/>
+<connect gate="G$3" pin="GND@1" pad="F2"/>
+<connect gate="G$3" pin="GND@10" pad="E14"/>
+<connect gate="G$3" pin="GND@11" pad="F15"/>
+<connect gate="G$3" pin="GND@12" pad="E17"/>
+<connect gate="G$3" pin="GND@13" pad="F18"/>
+<connect gate="G$3" pin="GND@14" pad="E20"/>
+<connect gate="G$3" pin="GND@15" pad="F21"/>
+<connect gate="G$3" pin="GND@16" pad="E23"/>
+<connect gate="G$3" pin="GND@17" pad="F24"/>
+<connect gate="G$3" pin="GND@18" pad="E26"/>
+<connect gate="G$3" pin="GND@19" pad="F27"/>
+<connect gate="G$3" pin="GND@2" pad="F3"/>
+<connect gate="G$3" pin="GND@20" pad="E29"/>
+<connect gate="G$3" pin="GND@21" pad="F30"/>
+<connect gate="G$3" pin="GND@22" pad="E32"/>
+<connect gate="G$3" pin="GND@23" pad="F33"/>
+<connect gate="G$3" pin="GND@24" pad="E35"/>
+<connect gate="G$3" pin="GND@25" pad="F36"/>
+<connect gate="G$3" pin="GND@26" pad="E38"/>
+<connect gate="G$3" pin="GND@27" pad="F39"/>
+<connect gate="G$3" pin="GND@28" pad="E40"/>
+<connect gate="G$3" pin="GND@3" pad="E4"/>
+<connect gate="G$3" pin="GND@4" pad="E5"/>
+<connect gate="G$3" pin="GND@5" pad="F6"/>
+<connect gate="G$3" pin="GND@6" pad="E8"/>
+<connect gate="G$3" pin="GND@7" pad="F9"/>
+<connect gate="G$3" pin="GND@8" pad="E11"/>
+<connect gate="G$3" pin="GND@9" pad="F12"/>
+<connect gate="G$3" pin="HA00_N_CC" pad="F5"/>
+<connect gate="G$3" pin="HA00_P_CC" pad="F4"/>
+<connect gate="G$3" pin="HA01_N_CC" pad="E3"/>
+<connect gate="G$3" pin="HA01_P_CC" pad="E2"/>
+<connect gate="G$3" pin="HA04_N" pad="F8"/>
+<connect gate="G$3" pin="HA04_P" pad="F7"/>
+<connect gate="G$3" pin="HA05_N" pad="E7"/>
+<connect gate="G$3" pin="HA05_P" pad="E6"/>
+<connect gate="G$3" pin="HA08_N" pad="F11"/>
+<connect gate="G$3" pin="HA08_P" pad="F10"/>
+<connect gate="G$3" pin="HA09_N" pad="E10"/>
+<connect gate="G$3" pin="HA09_P" pad="E9"/>
+<connect gate="G$3" pin="HA12_N" pad="F14"/>
+<connect gate="G$3" pin="HA12_P" pad="F13"/>
+<connect gate="G$3" pin="HA13_N" pad="E13"/>
+<connect gate="G$3" pin="HA13_P" pad="E12"/>
+<connect gate="G$3" pin="HA15_N" pad="F17"/>
+<connect gate="G$3" pin="HA15_P" pad="F16"/>
+<connect gate="G$3" pin="HA16_N" pad="E16"/>
+<connect gate="G$3" pin="HA16_P" pad="E15"/>
+<connect gate="G$3" pin="HA19_N" pad="F20"/>
+<connect gate="G$3" pin="HA19_P" pad="F19"/>
+<connect gate="G$3" pin="HA20_N" pad="E19"/>
+<connect gate="G$3" pin="HA20_P" pad="E18"/>
+<connect gate="G$3" pin="HB02_N" pad="F23"/>
+<connect gate="G$3" pin="HB02_P" pad="F22"/>
+<connect gate="G$3" pin="HB03_N" pad="E22"/>
+<connect gate="G$3" pin="HB03_P" pad="E21"/>
+<connect gate="G$3" pin="HB04_N" pad="F26"/>
+<connect gate="G$3" pin="HB04_P" pad="F25"/>
+<connect gate="G$3" pin="HB05_N" pad="E25"/>
+<connect gate="G$3" pin="HB05_P" pad="E24"/>
+<connect gate="G$3" pin="HB08_N" pad="F29"/>
+<connect gate="G$3" pin="HB08_P" pad="F28"/>
+<connect gate="G$3" pin="HB09_N" pad="E28"/>
+<connect gate="G$3" pin="HB09_P" pad="E27"/>
+<connect gate="G$3" pin="HB12_N" pad="F32"/>
+<connect gate="G$3" pin="HB12_P" pad="F31"/>
+<connect gate="G$3" pin="HB13_N" pad="E31"/>
+<connect gate="G$3" pin="HB13_P" pad="E30"/>
+<connect gate="G$3" pin="HB16_N" pad="F35"/>
+<connect gate="G$3" pin="HB16_P" pad="F34"/>
+<connect gate="G$3" pin="HB19_N" pad="E34"/>
+<connect gate="G$3" pin="HB19_P" pad="E33"/>
+<connect gate="G$3" pin="HB20_N" pad="F38"/>
+<connect gate="G$3" pin="HB20_P" pad="F37"/>
+<connect gate="G$3" pin="HB21_N" pad="E37"/>
+<connect gate="G$3" pin="HB21_P" pad="E36"/>
+<connect gate="G$3" pin="PG_M2C" pad="F1"/>
+<connect gate="G$3" pin="VADJ@0" pad="E39"/>
+<connect gate="G$3" pin="VADJ@1" pad="F40"/>
+<connect gate="G$4" pin="CLK0_M2C_N" pad="H5"/>
+<connect gate="G$4" pin="CLK0_M2C_P" pad="H4"/>
+<connect gate="G$4" pin="CLK1_M2C_N" pad="G3"/>
+<connect gate="G$4" pin="CLK1_M2C_P" pad="G2"/>
+<connect gate="G$4" pin="GND@0" pad="G1"/>
+<connect gate="G$4" pin="GND@1" pad="H3"/>
+<connect gate="G$4" pin="GND@10" pad="H15"/>
+<connect gate="G$4" pin="GND@11" pad="G17"/>
+<connect gate="G$4" pin="GND@12" pad="H18"/>
+<connect gate="G$4" pin="GND@13" pad="G20"/>
+<connect gate="G$4" pin="GND@14" pad="H21"/>
+<connect gate="G$4" pin="GND@15" pad="G23"/>
+<connect gate="G$4" pin="GND@16" pad="H24"/>
+<connect gate="G$4" pin="GND@17" pad="G26"/>
+<connect gate="G$4" pin="GND@18" pad="H27"/>
+<connect gate="G$4" pin="GND@19" pad="G29"/>
+<connect gate="G$4" pin="GND@2" pad="G4"/>
+<connect gate="G$4" pin="GND@20" pad="H30"/>
+<connect gate="G$4" pin="GND@21" pad="G32"/>
+<connect gate="G$4" pin="GND@22" pad="H33"/>
+<connect gate="G$4" pin="GND@23" pad="G35"/>
+<connect gate="G$4" pin="GND@24" pad="H36"/>
+<connect gate="G$4" pin="GND@25" pad="G38"/>
+<connect gate="G$4" pin="GND@26" pad="H39"/>
+<connect gate="G$4" pin="GND@27" pad="G40"/>
+<connect gate="G$4" pin="GND@3" pad="G5"/>
+<connect gate="G$4" pin="GND@4" pad="H6"/>
+<connect gate="G$4" pin="GND@5" pad="G8"/>
+<connect gate="G$4" pin="GND@6" pad="H9"/>
+<connect gate="G$4" pin="GND@7" pad="G11"/>
+<connect gate="G$4" pin="GND@8" pad="H12"/>
+<connect gate="G$4" pin="GND@9" pad="G14"/>
+<connect gate="G$4" pin="LA00_N_CC" pad="G7"/>
+<connect gate="G$4" pin="LA00_P_CC" pad="G6"/>
+<connect gate="G$4" pin="LA02_N" pad="H8"/>
+<connect gate="G$4" pin="LA02_P" pad="H7"/>
+<connect gate="G$4" pin="LA03_N" pad="G10"/>
+<connect gate="G$4" pin="LA03_P" pad="G9"/>
+<connect gate="G$4" pin="LA04_N" pad="H11"/>
+<connect gate="G$4" pin="LA04_P" pad="H10"/>
+<connect gate="G$4" pin="LA07_N" pad="H14"/>
+<connect gate="G$4" pin="LA07_P" pad="H13"/>
+<connect gate="G$4" pin="LA08_N" pad="G13"/>
+<connect gate="G$4" pin="LA08_P" pad="G12"/>
+<connect gate="G$4" pin="LA11_N" pad="H17"/>
+<connect gate="G$4" pin="LA11_P" pad="H16"/>
+<connect gate="G$4" pin="LA12_N" pad="G16"/>
+<connect gate="G$4" pin="LA12_P" pad="G15"/>
+<connect gate="G$4" pin="LA15_N" pad="H20"/>
+<connect gate="G$4" pin="LA15_P" pad="H19"/>
+<connect gate="G$4" pin="LA16_N" pad="G19"/>
+<connect gate="G$4" pin="LA16_P" pad="G18"/>
+<connect gate="G$4" pin="LA19_N" pad="H23"/>
+<connect gate="G$4" pin="LA19_P" pad="H22"/>
+<connect gate="G$4" pin="LA20_N" pad="G22"/>
+<connect gate="G$4" pin="LA20_P" pad="G21"/>
+<connect gate="G$4" pin="LA21_N" pad="H26"/>
+<connect gate="G$4" pin="LA21_P" pad="H25"/>
+<connect gate="G$4" pin="LA22_N" pad="G25"/>
+<connect gate="G$4" pin="LA22_P" pad="G24"/>
+<connect gate="G$4" pin="LA24_N" pad="H29"/>
+<connect gate="G$4" pin="LA24_P" pad="H28"/>
+<connect gate="G$4" pin="LA25_N" pad="G28"/>
+<connect gate="G$4" pin="LA25_P" pad="G27"/>
+<connect gate="G$4" pin="LA28_N" pad="H32"/>
+<connect gate="G$4" pin="LA28_P" pad="H31"/>
+<connect gate="G$4" pin="LA29_N" pad="G31"/>
+<connect gate="G$4" pin="LA29_P" pad="G30"/>
+<connect gate="G$4" pin="LA30_N" pad="H35"/>
+<connect gate="G$4" pin="LA30_P" pad="H34"/>
+<connect gate="G$4" pin="LA31_N" pad="G34"/>
+<connect gate="G$4" pin="LA31_P" pad="G33"/>
+<connect gate="G$4" pin="LA32_N" pad="H38"/>
+<connect gate="G$4" pin="LA32_P" pad="H37"/>
+<connect gate="G$4" pin="LA33_N" pad="G37"/>
+<connect gate="G$4" pin="LA33_P" pad="G36"/>
+<connect gate="G$4" pin="PRSNT_M2C_L" pad="H2"/>
+<connect gate="G$4" pin="VADJ@0" pad="G39"/>
+<connect gate="G$4" pin="VADJ@1" pad="H40"/>
+<connect gate="G$4" pin="VREF_A_M2C" pad="H1"/>
+<connect gate="G$5" pin="CLK2_M2C_N" pad="K5"/>
+<connect gate="G$5" pin="CLK2_M2C_P" pad="K4"/>
+<connect gate="G$5" pin="CLK3_M2C_N" pad="J3"/>
+<connect gate="G$5" pin="CLK3_M2C_P" pad="J2"/>
+<connect gate="G$5" pin="GND@0" pad="J1"/>
+<connect gate="G$5" pin="GND@1" pad="K2"/>
+<connect gate="G$5" pin="GND@10" pad="J14"/>
+<connect gate="G$5" pin="GND@11" pad="K15"/>
+<connect gate="G$5" pin="GND@12" pad="J17"/>
+<connect gate="G$5" pin="GND@13" pad="K18"/>
+<connect gate="G$5" pin="GND@14" pad="J20"/>
+<connect gate="G$5" pin="GND@15" pad="K21"/>
+<connect gate="G$5" pin="GND@16" pad="J23"/>
+<connect gate="G$5" pin="GND@17" pad="K24"/>
+<connect gate="G$5" pin="GND@18" pad="J26"/>
+<connect gate="G$5" pin="GND@19" pad="K27"/>
+<connect gate="G$5" pin="GND@2" pad="K3"/>
+<connect gate="G$5" pin="GND@20" pad="J29"/>
+<connect gate="G$5" pin="GND@21" pad="K30"/>
+<connect gate="G$5" pin="GND@22" pad="J32"/>
+<connect gate="G$5" pin="GND@23" pad="K33"/>
+<connect gate="G$5" pin="GND@24" pad="J35"/>
+<connect gate="G$5" pin="GND@25" pad="K36"/>
+<connect gate="G$5" pin="GND@26" pad="J38"/>
+<connect gate="G$5" pin="GND@27" pad="K39"/>
+<connect gate="G$5" pin="GND@28" pad="J40"/>
+<connect gate="G$5" pin="GND@3" pad="J4"/>
+<connect gate="G$5" pin="GND@4" pad="J5"/>
+<connect gate="G$5" pin="GND@5" pad="K6"/>
+<connect gate="G$5" pin="GND@6" pad="J8"/>
+<connect gate="G$5" pin="GND@7" pad="K9"/>
+<connect gate="G$5" pin="GND@8" pad="J11"/>
+<connect gate="G$5" pin="GND@9" pad="K12"/>
+<connect gate="G$5" pin="HA02_N" pad="K8"/>
+<connect gate="G$5" pin="HA02_P" pad="K7"/>
+<connect gate="G$5" pin="HA03_N" pad="J7"/>
+<connect gate="G$5" pin="HA03_P" pad="J6"/>
+<connect gate="G$5" pin="HA06_N" pad="K11"/>
+<connect gate="G$5" pin="HA06_P" pad="K10"/>
+<connect gate="G$5" pin="HA07_N" pad="J10"/>
+<connect gate="G$5" pin="HA07_P" pad="J9"/>
+<connect gate="G$5" pin="HA10_N" pad="K14"/>
+<connect gate="G$5" pin="HA10_P" pad="K13"/>
+<connect gate="G$5" pin="HA11_N" pad="J13"/>
+<connect gate="G$5" pin="HA11_P" pad="J12"/>
+<connect gate="G$5" pin="HA14_N" pad="J16"/>
+<connect gate="G$5" pin="HA14_P" pad="J15"/>
+<connect gate="G$5" pin="HA17_N_CC" pad="K17"/>
+<connect gate="G$5" pin="HA17_P_CC" pad="K16"/>
+<connect gate="G$5" pin="HA18_N" pad="J19"/>
+<connect gate="G$5" pin="HA18_P" pad="J18"/>
+<connect gate="G$5" pin="HA21_N" pad="K20"/>
+<connect gate="G$5" pin="HA21_P" pad="K19"/>
+<connect gate="G$5" pin="HA22_N" pad="J22"/>
+<connect gate="G$5" pin="HA22_P" pad="J21"/>
+<connect gate="G$5" pin="HA23_N" pad="K23"/>
+<connect gate="G$5" pin="HA23_P" pad="K22"/>
+<connect gate="G$5" pin="HB00_N_CC" pad="K26"/>
+<connect gate="G$5" pin="HB00_P_CC" pad="K25"/>
+<connect gate="G$5" pin="HB01_N" pad="J25"/>
+<connect gate="G$5" pin="HB01_P" pad="J24"/>
+<connect gate="G$5" pin="HB06_N_CC" pad="K29"/>
+<connect gate="G$5" pin="HB06_P_CC" pad="K28"/>
+<connect gate="G$5" pin="HB07_N" pad="J28"/>
+<connect gate="G$5" pin="HB07_P" pad="J27"/>
+<connect gate="G$5" pin="HB10_N" pad="K32"/>
+<connect gate="G$5" pin="HB10_P" pad="K31"/>
+<connect gate="G$5" pin="HB11_N" pad="J31"/>
+<connect gate="G$5" pin="HB11_P" pad="J30"/>
+<connect gate="G$5" pin="HB14_N" pad="K35"/>
+<connect gate="G$5" pin="HB14_P" pad="K34"/>
+<connect gate="G$5" pin="HB15_N" pad="J34"/>
+<connect gate="G$5" pin="HB15_P" pad="J33"/>
+<connect gate="G$5" pin="HB17_N_CC" pad="K38"/>
+<connect gate="G$5" pin="HB17_P_CC" pad="K37"/>
+<connect gate="G$5" pin="HB18_N" pad="J37"/>
+<connect gate="G$5" pin="HB18_P" pad="J36"/>
+<connect gate="G$5" pin="VIO_B_M2C@0" pad="J39"/>
+<connect gate="G$5" pin="VIO_B_M2C@1" pad="K40"/>
+<connect gate="G$5" pin="VREF_B_M2C" pad="K1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MALE" package="ASP-134602-01">
+<connects>
+<connect gate="G$1" pin="DP1_C2M_N" pad="A23"/>
+<connect gate="G$1" pin="DP1_C2M_P" pad="A22"/>
+<connect gate="G$1" pin="DP1_M2C_N" pad="A3"/>
+<connect gate="G$1" pin="DP1_M2C_P" pad="A2"/>
+<connect gate="G$1" pin="DP2_C2M_N" pad="A27"/>
+<connect gate="G$1" pin="DP2_C2M_P" pad="A26"/>
+<connect gate="G$1" pin="DP2_M2C_N" pad="A7"/>
+<connect gate="G$1" pin="DP2_M2C_P" pad="A6"/>
+<connect gate="G$1" pin="DP3_C2M_N" pad="A31"/>
+<connect gate="G$1" pin="DP3_C2M_P" pad="A30"/>
+<connect gate="G$1" pin="DP3_M2C_N" pad="A11"/>
+<connect gate="G$1" pin="DP3_M2C_P" pad="A10"/>
+<connect gate="G$1" pin="DP4_C2M_N" pad="A35"/>
+<connect gate="G$1" pin="DP4_C2M_P" pad="A34"/>
+<connect gate="G$1" pin="DP4_M2C_N" pad="A15"/>
+<connect gate="G$1" pin="DP4_M2C_P" pad="A14"/>
+<connect gate="G$1" pin="DP5_C2M_N" pad="A39"/>
+<connect gate="G$1" pin="DP5_C2M_P" pad="A38"/>
+<connect gate="G$1" pin="DP5_M2C_N" pad="A19"/>
+<connect gate="G$1" pin="DP5_M2C_P" pad="A18"/>
+<connect gate="G$1" pin="DP6_C2M_N" pad="B37"/>
+<connect gate="G$1" pin="DP6_C2M_P" pad="B36"/>
+<connect gate="G$1" pin="DP6_M2C_N" pad="B17"/>
+<connect gate="G$1" pin="DP6_M2C_P" pad="B16"/>
+<connect gate="G$1" pin="DP7_C2M_N" pad="B33"/>
+<connect gate="G$1" pin="DP7_C2M_P" pad="B32"/>
+<connect gate="G$1" pin="DP7_M2C_N" pad="B13"/>
+<connect gate="G$1" pin="DP7_M2C_P" pad="B12"/>
+<connect gate="G$1" pin="DP8_C2M_N" pad="B29"/>
+<connect gate="G$1" pin="DP8_C2M_P" pad="B28"/>
+<connect gate="G$1" pin="DP8_M2C_N" pad="B9"/>
+<connect gate="G$1" pin="DP8_M2C_P" pad="B8"/>
+<connect gate="G$1" pin="DP9_C2M_N" pad="B25"/>
+<connect gate="G$1" pin="DP9_C2M_P" pad="B24"/>
+<connect gate="G$1" pin="DP9_M2C_N" pad="B5"/>
+<connect gate="G$1" pin="DP9_M2C_P" pad="B4"/>
+<connect gate="G$1" pin="GBTCLK1_M2C_N" pad="B21"/>
+<connect gate="G$1" pin="GBTCLK1_M2C_P" pad="B20"/>
+<connect gate="G$1" pin="GND@0" pad="A1"/>
+<connect gate="G$1" pin="GND@1" pad="B2"/>
+<connect gate="G$1" pin="GND@10" pad="B11"/>
+<connect gate="G$1" pin="GND@11" pad="A12"/>
+<connect gate="G$1" pin="GND@12" pad="A13"/>
+<connect gate="G$1" pin="GND@13" pad="B14"/>
+<connect gate="G$1" pin="GND@14" pad="B15"/>
+<connect gate="G$1" pin="GND@15" pad="A16"/>
+<connect gate="G$1" pin="GND@16" pad="A17"/>
+<connect gate="G$1" pin="GND@17" pad="B18"/>
+<connect gate="G$1" pin="GND@18" pad="B19"/>
+<connect gate="G$1" pin="GND@19" pad="A20"/>
+<connect gate="G$1" pin="GND@2" pad="B3"/>
+<connect gate="G$1" pin="GND@20" pad="A21"/>
+<connect gate="G$1" pin="GND@21" pad="B22"/>
+<connect gate="G$1" pin="GND@22" pad="B23"/>
+<connect gate="G$1" pin="GND@23" pad="A24"/>
+<connect gate="G$1" pin="GND@24" pad="A25"/>
+<connect gate="G$1" pin="GND@25" pad="B26"/>
+<connect gate="G$1" pin="GND@26" pad="B27"/>
+<connect gate="G$1" pin="GND@27" pad="A28"/>
+<connect gate="G$1" pin="GND@28" pad="A29"/>
+<connect gate="G$1" pin="GND@29" pad="B30"/>
+<connect gate="G$1" pin="GND@3" pad="A4"/>
+<connect gate="G$1" pin="GND@30" pad="B31"/>
+<connect gate="G$1" pin="GND@31" pad="A32"/>
+<connect gate="G$1" pin="GND@32" pad="A33"/>
+<connect gate="G$1" pin="GND@33" pad="B34"/>
+<connect gate="G$1" pin="GND@34" pad="B35"/>
+<connect gate="G$1" pin="GND@35" pad="A36"/>
+<connect gate="G$1" pin="GND@36" pad="A37"/>
+<connect gate="G$1" pin="GND@37" pad="B38"/>
+<connect gate="G$1" pin="GND@38" pad="B39"/>
+<connect gate="G$1" pin="GND@39" pad="A40"/>
+<connect gate="G$1" pin="GND@4" pad="A5"/>
+<connect gate="G$1" pin="GND@5" pad="B6"/>
+<connect gate="G$1" pin="GND@6" pad="B7"/>
+<connect gate="G$1" pin="GND@7" pad="A8"/>
+<connect gate="G$1" pin="GND@8" pad="A9"/>
+<connect gate="G$1" pin="GND@9" pad="B10"/>
+<connect gate="G$1" pin="RES0" pad="B40"/>
+<connect gate="G$1" pin="RES1" pad="B1"/>
+<connect gate="G$2" pin="12P0V@0" pad="C35"/>
+<connect gate="G$2" pin="12P0V@1" pad="C37"/>
+<connect gate="G$2" pin="3P3V@0" pad="D36"/>
+<connect gate="G$2" pin="3P3V@1" pad="D38"/>
+<connect gate="G$2" pin="3P3V@2" pad="C39"/>
+<connect gate="G$2" pin="3P3V@3" pad="D40"/>
+<connect gate="G$2" pin="3P3VAUX" pad="D32"/>
+<connect gate="G$2" pin="DP0_C2M_N" pad="C3"/>
+<connect gate="G$2" pin="DP0_C2M_P" pad="C2"/>
+<connect gate="G$2" pin="DP0_M2C_N" pad="C7"/>
+<connect gate="G$2" pin="DP0_M2C_P" pad="C6"/>
+<connect gate="G$2" pin="GA0" pad="C34"/>
+<connect gate="G$2" pin="GA1" pad="D35"/>
+<connect gate="G$2" pin="GBTCLK0_M2C_N" pad="D5"/>
+<connect gate="G$2" pin="GBTCLK0_M2C_P" pad="D4"/>
+<connect gate="G$2" pin="GND@0" pad="C1"/>
+<connect gate="G$2" pin="GND@1" pad="D2"/>
+<connect gate="G$2" pin="GND@10" pad="C12"/>
+<connect gate="G$2" pin="GND@11" pad="C13"/>
+<connect gate="G$2" pin="GND@12" pad="D13"/>
+<connect gate="G$2" pin="GND@13" pad="C16"/>
+<connect gate="G$2" pin="GND@14" pad="D16"/>
+<connect gate="G$2" pin="GND@15" pad="C17"/>
+<connect gate="G$2" pin="GND@16" pad="D19"/>
+<connect gate="G$2" pin="GND@17" pad="C20"/>
+<connect gate="G$2" pin="GND@18" pad="C21"/>
+<connect gate="G$2" pin="GND@19" pad="D22"/>
+<connect gate="G$2" pin="GND@2" pad="D3"/>
+<connect gate="G$2" pin="GND@20" pad="C24"/>
+<connect gate="G$2" pin="GND@21" pad="C25"/>
+<connect gate="G$2" pin="GND@22" pad="D25"/>
+<connect gate="G$2" pin="GND@23" pad="C28"/>
+<connect gate="G$2" pin="GND@24" pad="D28"/>
+<connect gate="G$2" pin="GND@25" pad="C29"/>
+<connect gate="G$2" pin="GND@26" pad="C32"/>
+<connect gate="G$2" pin="GND@27" pad="C33"/>
+<connect gate="G$2" pin="GND@28" pad="C36"/>
+<connect gate="G$2" pin="GND@29" pad="D37"/>
+<connect gate="G$2" pin="GND@3" pad="C4"/>
+<connect gate="G$2" pin="GND@30" pad="C38"/>
+<connect gate="G$2" pin="GND@31" pad="D39"/>
+<connect gate="G$2" pin="GND@32" pad="C40"/>
+<connect gate="G$2" pin="GND@4" pad="C5"/>
+<connect gate="G$2" pin="GND@5" pad="D6"/>
+<connect gate="G$2" pin="GND@6" pad="D7"/>
+<connect gate="G$2" pin="GND@7" pad="C8"/>
+<connect gate="G$2" pin="GND@8" pad="C9"/>
+<connect gate="G$2" pin="GND@9" pad="D10"/>
+<connect gate="G$2" pin="LA01_N_CC" pad="D9"/>
+<connect gate="G$2" pin="LA01_P_CC" pad="D8"/>
+<connect gate="G$2" pin="LA05_N" pad="D12"/>
+<connect gate="G$2" pin="LA05_P" pad="D11"/>
+<connect gate="G$2" pin="LA06_N" pad="C11"/>
+<connect gate="G$2" pin="LA06_P" pad="C10"/>
+<connect gate="G$2" pin="LA09_N" pad="D15"/>
+<connect gate="G$2" pin="LA09_P" pad="D14"/>
+<connect gate="G$2" pin="LA10_N" pad="C15"/>
+<connect gate="G$2" pin="LA10_P" pad="C14"/>
+<connect gate="G$2" pin="LA13_N" pad="D18"/>
+<connect gate="G$2" pin="LA13_P" pad="D17"/>
+<connect gate="G$2" pin="LA14_N" pad="C19"/>
+<connect gate="G$2" pin="LA14_P" pad="C18"/>
+<connect gate="G$2" pin="LA17_N_CC" pad="D21"/>
+<connect gate="G$2" pin="LA17_P_CC" pad="D20"/>
+<connect gate="G$2" pin="LA18_N_CC" pad="C23"/>
+<connect gate="G$2" pin="LA18_P_CC" pad="C22"/>
+<connect gate="G$2" pin="LA23_N" pad="D24"/>
+<connect gate="G$2" pin="LA23_P" pad="D23"/>
+<connect gate="G$2" pin="LA26_N" pad="D27"/>
+<connect gate="G$2" pin="LA26_P" pad="D26"/>
+<connect gate="G$2" pin="LA27_N" pad="C27"/>
+<connect gate="G$2" pin="LA27_P" pad="C26"/>
+<connect gate="G$2" pin="PG_C2M" pad="D1"/>
+<connect gate="G$2" pin="SCL" pad="C30"/>
+<connect gate="G$2" pin="SDA" pad="C31"/>
+<connect gate="G$2" pin="TCK" pad="D29"/>
+<connect gate="G$2" pin="TDI" pad="D30"/>
+<connect gate="G$2" pin="TDO" pad="D31"/>
+<connect gate="G$2" pin="TMS" pad="D33"/>
+<connect gate="G$2" pin="TRST_L" pad="D34"/>
+<connect gate="G$3" pin="GND@0" pad="E1"/>
+<connect gate="G$3" pin="GND@1" pad="F2"/>
+<connect gate="G$3" pin="GND@10" pad="E14"/>
+<connect gate="G$3" pin="GND@11" pad="F15"/>
+<connect gate="G$3" pin="GND@12" pad="E17"/>
+<connect gate="G$3" pin="GND@13" pad="F18"/>
+<connect gate="G$3" pin="GND@14" pad="E20"/>
+<connect gate="G$3" pin="GND@15" pad="F21"/>
+<connect gate="G$3" pin="GND@16" pad="E23"/>
+<connect gate="G$3" pin="GND@17" pad="F24"/>
+<connect gate="G$3" pin="GND@18" pad="E26"/>
+<connect gate="G$3" pin="GND@19" pad="F27"/>
+<connect gate="G$3" pin="GND@2" pad="F3"/>
+<connect gate="G$3" pin="GND@20" pad="E29"/>
+<connect gate="G$3" pin="GND@21" pad="F30"/>
+<connect gate="G$3" pin="GND@22" pad="E32"/>
+<connect gate="G$3" pin="GND@23" pad="F33"/>
+<connect gate="G$3" pin="GND@24" pad="E35"/>
+<connect gate="G$3" pin="GND@25" pad="F36"/>
+<connect gate="G$3" pin="GND@26" pad="E38"/>
+<connect gate="G$3" pin="GND@27" pad="F39"/>
+<connect gate="G$3" pin="GND@28" pad="E40"/>
+<connect gate="G$3" pin="GND@3" pad="E4"/>
+<connect gate="G$3" pin="GND@4" pad="E5"/>
+<connect gate="G$3" pin="GND@5" pad="F6"/>
+<connect gate="G$3" pin="GND@6" pad="E8"/>
+<connect gate="G$3" pin="GND@7" pad="F9"/>
+<connect gate="G$3" pin="GND@8" pad="E11"/>
+<connect gate="G$3" pin="GND@9" pad="F12"/>
+<connect gate="G$3" pin="HA00_N_CC" pad="F5"/>
+<connect gate="G$3" pin="HA00_P_CC" pad="F4"/>
+<connect gate="G$3" pin="HA01_N_CC" pad="E3"/>
+<connect gate="G$3" pin="HA01_P_CC" pad="E2"/>
+<connect gate="G$3" pin="HA04_N" pad="F8"/>
+<connect gate="G$3" pin="HA04_P" pad="F7"/>
+<connect gate="G$3" pin="HA05_N" pad="E7"/>
+<connect gate="G$3" pin="HA05_P" pad="E6"/>
+<connect gate="G$3" pin="HA08_N" pad="F11"/>
+<connect gate="G$3" pin="HA08_P" pad="F10"/>
+<connect gate="G$3" pin="HA09_N" pad="E10"/>
+<connect gate="G$3" pin="HA09_P" pad="E9"/>
+<connect gate="G$3" pin="HA12_N" pad="F14"/>
+<connect gate="G$3" pin="HA12_P" pad="F13"/>
+<connect gate="G$3" pin="HA13_N" pad="E13"/>
+<connect gate="G$3" pin="HA13_P" pad="E12"/>
+<connect gate="G$3" pin="HA15_N" pad="F17"/>
+<connect gate="G$3" pin="HA15_P" pad="F16"/>
+<connect gate="G$3" pin="HA16_N" pad="E16"/>
+<connect gate="G$3" pin="HA16_P" pad="E15"/>
+<connect gate="G$3" pin="HA19_N" pad="F20"/>
+<connect gate="G$3" pin="HA19_P" pad="F19"/>
+<connect gate="G$3" pin="HA20_N" pad="E19"/>
+<connect gate="G$3" pin="HA20_P" pad="E18"/>
+<connect gate="G$3" pin="HB02_N" pad="F23"/>
+<connect gate="G$3" pin="HB02_P" pad="F22"/>
+<connect gate="G$3" pin="HB03_N" pad="E22"/>
+<connect gate="G$3" pin="HB03_P" pad="E21"/>
+<connect gate="G$3" pin="HB04_N" pad="F26"/>
+<connect gate="G$3" pin="HB04_P" pad="F25"/>
+<connect gate="G$3" pin="HB05_N" pad="E25"/>
+<connect gate="G$3" pin="HB05_P" pad="E24"/>
+<connect gate="G$3" pin="HB08_N" pad="F29"/>
+<connect gate="G$3" pin="HB08_P" pad="F28"/>
+<connect gate="G$3" pin="HB09_N" pad="E28"/>
+<connect gate="G$3" pin="HB09_P" pad="E27"/>
+<connect gate="G$3" pin="HB12_N" pad="F32"/>
+<connect gate="G$3" pin="HB12_P" pad="F31"/>
+<connect gate="G$3" pin="HB13_N" pad="E31"/>
+<connect gate="G$3" pin="HB13_P" pad="E30"/>
+<connect gate="G$3" pin="HB16_N" pad="F35"/>
+<connect gate="G$3" pin="HB16_P" pad="F34"/>
+<connect gate="G$3" pin="HB19_N" pad="E34"/>
+<connect gate="G$3" pin="HB19_P" pad="E33"/>
+<connect gate="G$3" pin="HB20_N" pad="F38"/>
+<connect gate="G$3" pin="HB20_P" pad="F37"/>
+<connect gate="G$3" pin="HB21_N" pad="E37"/>
+<connect gate="G$3" pin="HB21_P" pad="E36"/>
+<connect gate="G$3" pin="PG_M2C" pad="F1"/>
+<connect gate="G$3" pin="VADJ@0" pad="E39"/>
+<connect gate="G$3" pin="VADJ@1" pad="F40"/>
+<connect gate="G$4" pin="CLK0_M2C_N" pad="H5"/>
+<connect gate="G$4" pin="CLK0_M2C_P" pad="H4"/>
+<connect gate="G$4" pin="CLK1_M2C_N" pad="G3"/>
+<connect gate="G$4" pin="CLK1_M2C_P" pad="G2"/>
+<connect gate="G$4" pin="GND@0" pad="G1"/>
+<connect gate="G$4" pin="GND@1" pad="H3"/>
+<connect gate="G$4" pin="GND@10" pad="H15"/>
+<connect gate="G$4" pin="GND@11" pad="G17"/>
+<connect gate="G$4" pin="GND@12" pad="H18"/>
+<connect gate="G$4" pin="GND@13" pad="G20"/>
+<connect gate="G$4" pin="GND@14" pad="H21"/>
+<connect gate="G$4" pin="GND@15" pad="G23"/>
+<connect gate="G$4" pin="GND@16" pad="H24"/>
+<connect gate="G$4" pin="GND@17" pad="G26"/>
+<connect gate="G$4" pin="GND@18" pad="H27"/>
+<connect gate="G$4" pin="GND@19" pad="G29"/>
+<connect gate="G$4" pin="GND@2" pad="G4"/>
+<connect gate="G$4" pin="GND@20" pad="H30"/>
+<connect gate="G$4" pin="GND@21" pad="G32"/>
+<connect gate="G$4" pin="GND@22" pad="H33"/>
+<connect gate="G$4" pin="GND@23" pad="G35"/>
+<connect gate="G$4" pin="GND@24" pad="H36"/>
+<connect gate="G$4" pin="GND@25" pad="G38"/>
+<connect gate="G$4" pin="GND@26" pad="H39"/>
+<connect gate="G$4" pin="GND@27" pad="G40"/>
+<connect gate="G$4" pin="GND@3" pad="G5"/>
+<connect gate="G$4" pin="GND@4" pad="H6"/>
+<connect gate="G$4" pin="GND@5" pad="G8"/>
+<connect gate="G$4" pin="GND@6" pad="H9"/>
+<connect gate="G$4" pin="GND@7" pad="G11"/>
+<connect gate="G$4" pin="GND@8" pad="H12"/>
+<connect gate="G$4" pin="GND@9" pad="G14"/>
+<connect gate="G$4" pin="LA00_N_CC" pad="G7"/>
+<connect gate="G$4" pin="LA00_P_CC" pad="G6"/>
+<connect gate="G$4" pin="LA02_N" pad="H8"/>
+<connect gate="G$4" pin="LA02_P" pad="H7"/>
+<connect gate="G$4" pin="LA03_N" pad="G10"/>
+<connect gate="G$4" pin="LA03_P" pad="G9"/>
+<connect gate="G$4" pin="LA04_N" pad="H11"/>
+<connect gate="G$4" pin="LA04_P" pad="H10"/>
+<connect gate="G$4" pin="LA07_N" pad="H14"/>
+<connect gate="G$4" pin="LA07_P" pad="H13"/>
+<connect gate="G$4" pin="LA08_N" pad="G13"/>
+<connect gate="G$4" pin="LA08_P" pad="G12"/>
+<connect gate="G$4" pin="LA11_N" pad="H17"/>
+<connect gate="G$4" pin="LA11_P" pad="H16"/>
+<connect gate="G$4" pin="LA12_N" pad="G16"/>
+<connect gate="G$4" pin="LA12_P" pad="G15"/>
+<connect gate="G$4" pin="LA15_N" pad="H20"/>
+<connect gate="G$4" pin="LA15_P" pad="H19"/>
+<connect gate="G$4" pin="LA16_N" pad="G19"/>
+<connect gate="G$4" pin="LA16_P" pad="G18"/>
+<connect gate="G$4" pin="LA19_N" pad="H23"/>
+<connect gate="G$4" pin="LA19_P" pad="H22"/>
+<connect gate="G$4" pin="LA20_N" pad="G22"/>
+<connect gate="G$4" pin="LA20_P" pad="G21"/>
+<connect gate="G$4" pin="LA21_N" pad="H26"/>
+<connect gate="G$4" pin="LA21_P" pad="H25"/>
+<connect gate="G$4" pin="LA22_N" pad="G25"/>
+<connect gate="G$4" pin="LA22_P" pad="G24"/>
+<connect gate="G$4" pin="LA24_N" pad="H29"/>
+<connect gate="G$4" pin="LA24_P" pad="H28"/>
+<connect gate="G$4" pin="LA25_N" pad="G28"/>
+<connect gate="G$4" pin="LA25_P" pad="G27"/>
+<connect gate="G$4" pin="LA28_N" pad="H32"/>
+<connect gate="G$4" pin="LA28_P" pad="H31"/>
+<connect gate="G$4" pin="LA29_N" pad="G31"/>
+<connect gate="G$4" pin="LA29_P" pad="G30"/>
+<connect gate="G$4" pin="LA30_N" pad="H35"/>
+<connect gate="G$4" pin="LA30_P" pad="H34"/>
+<connect gate="G$4" pin="LA31_N" pad="G34"/>
+<connect gate="G$4" pin="LA31_P" pad="G33"/>
+<connect gate="G$4" pin="LA32_N" pad="H38"/>
+<connect gate="G$4" pin="LA32_P" pad="H37"/>
+<connect gate="G$4" pin="LA33_N" pad="G37"/>
+<connect gate="G$4" pin="LA33_P" pad="G36"/>
+<connect gate="G$4" pin="PRSNT_M2C_L" pad="H2"/>
+<connect gate="G$4" pin="VADJ@0" pad="G39"/>
+<connect gate="G$4" pin="VADJ@1" pad="H40"/>
+<connect gate="G$4" pin="VREF_A_M2C" pad="H1"/>
+<connect gate="G$5" pin="CLK2_M2C_N" pad="K5"/>
+<connect gate="G$5" pin="CLK2_M2C_P" pad="K4"/>
+<connect gate="G$5" pin="CLK3_M2C_N" pad="J3"/>
+<connect gate="G$5" pin="CLK3_M2C_P" pad="J2"/>
+<connect gate="G$5" pin="GND@0" pad="J1"/>
+<connect gate="G$5" pin="GND@1" pad="K2"/>
+<connect gate="G$5" pin="GND@10" pad="J14"/>
+<connect gate="G$5" pin="GND@11" pad="K15"/>
+<connect gate="G$5" pin="GND@12" pad="J17"/>
+<connect gate="G$5" pin="GND@13" pad="K18"/>
+<connect gate="G$5" pin="GND@14" pad="J20"/>
+<connect gate="G$5" pin="GND@15" pad="K21"/>
+<connect gate="G$5" pin="GND@16" pad="J23"/>
+<connect gate="G$5" pin="GND@17" pad="K24"/>
+<connect gate="G$5" pin="GND@18" pad="J26"/>
+<connect gate="G$5" pin="GND@19" pad="K27"/>
+<connect gate="G$5" pin="GND@2" pad="K3"/>
+<connect gate="G$5" pin="GND@20" pad="J29"/>
+<connect gate="G$5" pin="GND@21" pad="K30"/>
+<connect gate="G$5" pin="GND@22" pad="J32"/>
+<connect gate="G$5" pin="GND@23" pad="K33"/>
+<connect gate="G$5" pin="GND@24" pad="J35"/>
+<connect gate="G$5" pin="GND@25" pad="K36"/>
+<connect gate="G$5" pin="GND@26" pad="J38"/>
+<connect gate="G$5" pin="GND@27" pad="K39"/>
+<connect gate="G$5" pin="GND@28" pad="J40"/>
+<connect gate="G$5" pin="GND@3" pad="J4"/>
+<connect gate="G$5" pin="GND@4" pad="J5"/>
+<connect gate="G$5" pin="GND@5" pad="K6"/>
+<connect gate="G$5" pin="GND@6" pad="J8"/>
+<connect gate="G$5" pin="GND@7" pad="K9"/>
+<connect gate="G$5" pin="GND@8" pad="J11"/>
+<connect gate="G$5" pin="GND@9" pad="K12"/>
+<connect gate="G$5" pin="HA02_N" pad="K8"/>
+<connect gate="G$5" pin="HA02_P" pad="K7"/>
+<connect gate="G$5" pin="HA03_N" pad="J7"/>
+<connect gate="G$5" pin="HA03_P" pad="J6"/>
+<connect gate="G$5" pin="HA06_N" pad="K11"/>
+<connect gate="G$5" pin="HA06_P" pad="K10"/>
+<connect gate="G$5" pin="HA07_N" pad="J10"/>
+<connect gate="G$5" pin="HA07_P" pad="J9"/>
+<connect gate="G$5" pin="HA10_N" pad="K14"/>
+<connect gate="G$5" pin="HA10_P" pad="K13"/>
+<connect gate="G$5" pin="HA11_N" pad="J13"/>
+<connect gate="G$5" pin="HA11_P" pad="J12"/>
+<connect gate="G$5" pin="HA14_N" pad="J16"/>
+<connect gate="G$5" pin="HA14_P" pad="J15"/>
+<connect gate="G$5" pin="HA17_N_CC" pad="K17"/>
+<connect gate="G$5" pin="HA17_P_CC" pad="K16"/>
+<connect gate="G$5" pin="HA18_N" pad="J19"/>
+<connect gate="G$5" pin="HA18_P" pad="J18"/>
+<connect gate="G$5" pin="HA21_N" pad="K20"/>
+<connect gate="G$5" pin="HA21_P" pad="K19"/>
+<connect gate="G$5" pin="HA22_N" pad="J22"/>
+<connect gate="G$5" pin="HA22_P" pad="J21"/>
+<connect gate="G$5" pin="HA23_N" pad="K23"/>
+<connect gate="G$5" pin="HA23_P" pad="K22"/>
+<connect gate="G$5" pin="HB00_N_CC" pad="K26"/>
+<connect gate="G$5" pin="HB00_P_CC" pad="K25"/>
+<connect gate="G$5" pin="HB01_N" pad="J25"/>
+<connect gate="G$5" pin="HB01_P" pad="J24"/>
+<connect gate="G$5" pin="HB06_N_CC" pad="K29"/>
+<connect gate="G$5" pin="HB06_P_CC" pad="K28"/>
+<connect gate="G$5" pin="HB07_N" pad="J28"/>
+<connect gate="G$5" pin="HB07_P" pad="J27"/>
+<connect gate="G$5" pin="HB10_N" pad="K32"/>
+<connect gate="G$5" pin="HB10_P" pad="K31"/>
+<connect gate="G$5" pin="HB11_N" pad="J31"/>
+<connect gate="G$5" pin="HB11_P" pad="J30"/>
+<connect gate="G$5" pin="HB14_N" pad="K35"/>
+<connect gate="G$5" pin="HB14_P" pad="K34"/>
+<connect gate="G$5" pin="HB15_N" pad="J34"/>
+<connect gate="G$5" pin="HB15_P" pad="J33"/>
+<connect gate="G$5" pin="HB17_N_CC" pad="K38"/>
+<connect gate="G$5" pin="HB17_P_CC" pad="K37"/>
+<connect gate="G$5" pin="HB18_N" pad="J37"/>
+<connect gate="G$5" pin="HB18_P" pad="J36"/>
+<connect gate="G$5" pin="VIO_B_M2C@0" pad="J39"/>
+<connect gate="G$5" pin="VIO_B_M2C@1" pad="K40"/>
+<connect gate="G$5" pin="VREF_B_M2C" pad="K1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FMC-LPC160-FPGA" prefix="ZED">
+<description>ASP-134604-01 	FMC Connector, lead free, (LPC), 160 I/O, male 	10 mm&lt;br&gt;
+ASP-134606-01 	FMC Connector, lead free, (LPC), 160 I/O, male 	8.50 mm&lt;br&gt;</description>
+<gates>
+<gate name="-A" symbol="BANK-80P-CD-FPGA" x="-30.48" y="0"/>
+<gate name="-B" symbol="BANK-80P-GH-FPGA" x="30.48" y="0"/>
+</gates>
+<devices>
+<device name="-FEMALE" package="ASP-134603-01">
+<connects>
+<connect gate="-A" pin="12P0V@0" pad="C35"/>
+<connect gate="-A" pin="12P0V@1" pad="C37"/>
+<connect gate="-A" pin="3P3V@0" pad="D36"/>
+<connect gate="-A" pin="3P3V@1" pad="D38"/>
+<connect gate="-A" pin="3P3V@2" pad="C39"/>
+<connect gate="-A" pin="3P3V@3" pad="D40"/>
+<connect gate="-A" pin="3P3VAUX" pad="D32"/>
+<connect gate="-A" pin="DP0_C2M_N" pad="C3"/>
+<connect gate="-A" pin="DP0_C2M_P" pad="C2"/>
+<connect gate="-A" pin="DP0_M2C_N" pad="C7"/>
+<connect gate="-A" pin="DP0_M2C_P" pad="C6"/>
+<connect gate="-A" pin="GA0" pad="C34"/>
+<connect gate="-A" pin="GA1" pad="D35"/>
+<connect gate="-A" pin="GBTCLK0_M2C_N" pad="D5"/>
+<connect gate="-A" pin="GBTCLK0_M2C_P" pad="D4"/>
+<connect gate="-A" pin="GND@0" pad="C1"/>
+<connect gate="-A" pin="GND@1" pad="D2"/>
+<connect gate="-A" pin="GND@10" pad="C12"/>
+<connect gate="-A" pin="GND@11" pad="C13"/>
+<connect gate="-A" pin="GND@12" pad="D13"/>
+<connect gate="-A" pin="GND@13" pad="C16"/>
+<connect gate="-A" pin="GND@14" pad="D16"/>
+<connect gate="-A" pin="GND@15" pad="C17"/>
+<connect gate="-A" pin="GND@16" pad="D19"/>
+<connect gate="-A" pin="GND@17" pad="C20"/>
+<connect gate="-A" pin="GND@18" pad="C21"/>
+<connect gate="-A" pin="GND@19" pad="D22"/>
+<connect gate="-A" pin="GND@2" pad="D3"/>
+<connect gate="-A" pin="GND@20" pad="C24"/>
+<connect gate="-A" pin="GND@21" pad="C25"/>
+<connect gate="-A" pin="GND@22" pad="D25"/>
+<connect gate="-A" pin="GND@23" pad="C28"/>
+<connect gate="-A" pin="GND@24" pad="D28"/>
+<connect gate="-A" pin="GND@25" pad="C29"/>
+<connect gate="-A" pin="GND@26" pad="C32"/>
+<connect gate="-A" pin="GND@27" pad="C33"/>
+<connect gate="-A" pin="GND@28" pad="C36"/>
+<connect gate="-A" pin="GND@29" pad="D37"/>
+<connect gate="-A" pin="GND@3" pad="C4"/>
+<connect gate="-A" pin="GND@30" pad="C38"/>
+<connect gate="-A" pin="GND@31" pad="D39"/>
+<connect gate="-A" pin="GND@32" pad="C40"/>
+<connect gate="-A" pin="GND@4" pad="C5"/>
+<connect gate="-A" pin="GND@5" pad="D6"/>
+<connect gate="-A" pin="GND@6" pad="D7"/>
+<connect gate="-A" pin="GND@7" pad="C8"/>
+<connect gate="-A" pin="GND@8" pad="C9"/>
+<connect gate="-A" pin="GND@9" pad="D10"/>
+<connect gate="-A" pin="LA01_N_CC" pad="D9"/>
+<connect gate="-A" pin="LA01_P_CC" pad="D8"/>
+<connect gate="-A" pin="LA05_N" pad="D12"/>
+<connect gate="-A" pin="LA05_P" pad="D11"/>
+<connect gate="-A" pin="LA06_N" pad="C11"/>
+<connect gate="-A" pin="LA06_P" pad="C10"/>
+<connect gate="-A" pin="LA09_N" pad="D15"/>
+<connect gate="-A" pin="LA09_P" pad="D14"/>
+<connect gate="-A" pin="LA10_N" pad="C15"/>
+<connect gate="-A" pin="LA10_P" pad="C14"/>
+<connect gate="-A" pin="LA13_N" pad="D18"/>
+<connect gate="-A" pin="LA13_P" pad="D17"/>
+<connect gate="-A" pin="LA14_N" pad="C19"/>
+<connect gate="-A" pin="LA14_P" pad="C18"/>
+<connect gate="-A" pin="LA17_N_CC" pad="D21"/>
+<connect gate="-A" pin="LA17_P_CC" pad="D20"/>
+<connect gate="-A" pin="LA18_N_CC" pad="C23"/>
+<connect gate="-A" pin="LA18_P_CC" pad="C22"/>
+<connect gate="-A" pin="LA23_N" pad="D24"/>
+<connect gate="-A" pin="LA23_P" pad="D23"/>
+<connect gate="-A" pin="LA26_N" pad="D27"/>
+<connect gate="-A" pin="LA26_P" pad="D26"/>
+<connect gate="-A" pin="LA27_N" pad="C27"/>
+<connect gate="-A" pin="LA27_P" pad="C26"/>
+<connect gate="-A" pin="PG_C2M" pad="D1"/>
+<connect gate="-A" pin="SCL" pad="C30"/>
+<connect gate="-A" pin="SDA" pad="C31"/>
+<connect gate="-A" pin="TCK" pad="D29"/>
+<connect gate="-A" pin="TDI" pad="D30"/>
+<connect gate="-A" pin="TDO" pad="D31"/>
+<connect gate="-A" pin="TMS" pad="D33"/>
+<connect gate="-A" pin="TRST_L" pad="D34"/>
+<connect gate="-B" pin="CLK0_M2C_N" pad="H5"/>
+<connect gate="-B" pin="CLK0_M2C_P" pad="H4"/>
+<connect gate="-B" pin="CLK1_M2C_N" pad="G3"/>
+<connect gate="-B" pin="CLK1_M2C_P" pad="G2"/>
+<connect gate="-B" pin="GND@0" pad="G1"/>
+<connect gate="-B" pin="GND@1" pad="H3"/>
+<connect gate="-B" pin="GND@10" pad="H15"/>
+<connect gate="-B" pin="GND@11" pad="G17"/>
+<connect gate="-B" pin="GND@12" pad="H18"/>
+<connect gate="-B" pin="GND@13" pad="G20"/>
+<connect gate="-B" pin="GND@14" pad="H21"/>
+<connect gate="-B" pin="GND@15" pad="G23"/>
+<connect gate="-B" pin="GND@16" pad="H24"/>
+<connect gate="-B" pin="GND@17" pad="G26"/>
+<connect gate="-B" pin="GND@18" pad="H27"/>
+<connect gate="-B" pin="GND@19" pad="G29"/>
+<connect gate="-B" pin="GND@2" pad="G4"/>
+<connect gate="-B" pin="GND@20" pad="H30"/>
+<connect gate="-B" pin="GND@21" pad="G32"/>
+<connect gate="-B" pin="GND@22" pad="H33"/>
+<connect gate="-B" pin="GND@23" pad="G35"/>
+<connect gate="-B" pin="GND@24" pad="H36"/>
+<connect gate="-B" pin="GND@25" pad="G38"/>
+<connect gate="-B" pin="GND@26" pad="H39"/>
+<connect gate="-B" pin="GND@27" pad="G40"/>
+<connect gate="-B" pin="GND@3" pad="G5"/>
+<connect gate="-B" pin="GND@4" pad="H6"/>
+<connect gate="-B" pin="GND@5" pad="G8"/>
+<connect gate="-B" pin="GND@6" pad="H9"/>
+<connect gate="-B" pin="GND@7" pad="G11"/>
+<connect gate="-B" pin="GND@8" pad="H12"/>
+<connect gate="-B" pin="GND@9" pad="G14"/>
+<connect gate="-B" pin="LA00_N_CC" pad="G7"/>
+<connect gate="-B" pin="LA00_P_CC" pad="G6"/>
+<connect gate="-B" pin="LA02_N" pad="H8"/>
+<connect gate="-B" pin="LA02_P" pad="H7"/>
+<connect gate="-B" pin="LA03_N" pad="G10"/>
+<connect gate="-B" pin="LA03_P" pad="G9"/>
+<connect gate="-B" pin="LA04_N" pad="H11"/>
+<connect gate="-B" pin="LA04_P" pad="H10"/>
+<connect gate="-B" pin="LA07_N" pad="H14"/>
+<connect gate="-B" pin="LA07_P" pad="H13"/>
+<connect gate="-B" pin="LA08_N" pad="G13"/>
+<connect gate="-B" pin="LA08_P" pad="G12"/>
+<connect gate="-B" pin="LA11_N" pad="H17"/>
+<connect gate="-B" pin="LA11_P" pad="H16"/>
+<connect gate="-B" pin="LA12_N" pad="G16"/>
+<connect gate="-B" pin="LA12_P" pad="G15"/>
+<connect gate="-B" pin="LA15_N" pad="H20"/>
+<connect gate="-B" pin="LA15_P" pad="H19"/>
+<connect gate="-B" pin="LA16_N" pad="G19"/>
+<connect gate="-B" pin="LA16_P" pad="G18"/>
+<connect gate="-B" pin="LA19_N" pad="H23"/>
+<connect gate="-B" pin="LA19_P" pad="H22"/>
+<connect gate="-B" pin="LA20_N" pad="G22"/>
+<connect gate="-B" pin="LA20_P" pad="G21"/>
+<connect gate="-B" pin="LA21_N" pad="H26"/>
+<connect gate="-B" pin="LA21_P" pad="H25"/>
+<connect gate="-B" pin="LA22_N" pad="G25"/>
+<connect gate="-B" pin="LA22_P" pad="G24"/>
+<connect gate="-B" pin="LA24_N" pad="H29"/>
+<connect gate="-B" pin="LA24_P" pad="H28"/>
+<connect gate="-B" pin="LA25_N" pad="G28"/>
+<connect gate="-B" pin="LA25_P" pad="G27"/>
+<connect gate="-B" pin="LA28_N" pad="H32"/>
+<connect gate="-B" pin="LA28_P" pad="H31"/>
+<connect gate="-B" pin="LA29_N" pad="G31"/>
+<connect gate="-B" pin="LA29_P" pad="G30"/>
+<connect gate="-B" pin="LA30_N" pad="H35"/>
+<connect gate="-B" pin="LA30_P" pad="H34"/>
+<connect gate="-B" pin="LA31_N" pad="G34"/>
+<connect gate="-B" pin="LA31_P" pad="G33"/>
+<connect gate="-B" pin="LA32_N" pad="H38"/>
+<connect gate="-B" pin="LA32_P" pad="H37"/>
+<connect gate="-B" pin="LA33_N" pad="G37"/>
+<connect gate="-B" pin="LA33_P" pad="G36"/>
+<connect gate="-B" pin="PRSNT_M2C_L" pad="H2"/>
+<connect gate="-B" pin="VADJ@0" pad="G39"/>
+<connect gate="-B" pin="VADJ@1" pad="H40"/>
+<connect gate="-B" pin="VREF_A_M2C" pad="H1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MALE" package="ASP-134604-01">
+<connects>
+<connect gate="-A" pin="12P0V@0" pad="C35"/>
+<connect gate="-A" pin="12P0V@1" pad="C37"/>
+<connect gate="-A" pin="3P3V@0" pad="D36"/>
+<connect gate="-A" pin="3P3V@1" pad="D38"/>
+<connect gate="-A" pin="3P3V@2" pad="C39"/>
+<connect gate="-A" pin="3P3V@3" pad="D40"/>
+<connect gate="-A" pin="3P3VAUX" pad="D32"/>
+<connect gate="-A" pin="DP0_C2M_N" pad="C3"/>
+<connect gate="-A" pin="DP0_C2M_P" pad="C2"/>
+<connect gate="-A" pin="DP0_M2C_N" pad="C7"/>
+<connect gate="-A" pin="DP0_M2C_P" pad="C6"/>
+<connect gate="-A" pin="GA0" pad="C34"/>
+<connect gate="-A" pin="GA1" pad="D35"/>
+<connect gate="-A" pin="GBTCLK0_M2C_N" pad="D5"/>
+<connect gate="-A" pin="GBTCLK0_M2C_P" pad="D4"/>
+<connect gate="-A" pin="GND@0" pad="C1"/>
+<connect gate="-A" pin="GND@1" pad="D2"/>
+<connect gate="-A" pin="GND@10" pad="C12"/>
+<connect gate="-A" pin="GND@11" pad="C13"/>
+<connect gate="-A" pin="GND@12" pad="D13"/>
+<connect gate="-A" pin="GND@13" pad="C16"/>
+<connect gate="-A" pin="GND@14" pad="D16"/>
+<connect gate="-A" pin="GND@15" pad="C17"/>
+<connect gate="-A" pin="GND@16" pad="D19"/>
+<connect gate="-A" pin="GND@17" pad="C20"/>
+<connect gate="-A" pin="GND@18" pad="C21"/>
+<connect gate="-A" pin="GND@19" pad="D22"/>
+<connect gate="-A" pin="GND@2" pad="D3"/>
+<connect gate="-A" pin="GND@20" pad="C24"/>
+<connect gate="-A" pin="GND@21" pad="C25"/>
+<connect gate="-A" pin="GND@22" pad="D25"/>
+<connect gate="-A" pin="GND@23" pad="C28"/>
+<connect gate="-A" pin="GND@24" pad="D28"/>
+<connect gate="-A" pin="GND@25" pad="C29"/>
+<connect gate="-A" pin="GND@26" pad="C32"/>
+<connect gate="-A" pin="GND@27" pad="C33"/>
+<connect gate="-A" pin="GND@28" pad="C36"/>
+<connect gate="-A" pin="GND@29" pad="D37"/>
+<connect gate="-A" pin="GND@3" pad="C4"/>
+<connect gate="-A" pin="GND@30" pad="C38"/>
+<connect gate="-A" pin="GND@31" pad="D39"/>
+<connect gate="-A" pin="GND@32" pad="C40"/>
+<connect gate="-A" pin="GND@4" pad="C5"/>
+<connect gate="-A" pin="GND@5" pad="D6"/>
+<connect gate="-A" pin="GND@6" pad="D7"/>
+<connect gate="-A" pin="GND@7" pad="C8"/>
+<connect gate="-A" pin="GND@8" pad="C9"/>
+<connect gate="-A" pin="GND@9" pad="D10"/>
+<connect gate="-A" pin="LA01_N_CC" pad="D9"/>
+<connect gate="-A" pin="LA01_P_CC" pad="D8"/>
+<connect gate="-A" pin="LA05_N" pad="D12"/>
+<connect gate="-A" pin="LA05_P" pad="D11"/>
+<connect gate="-A" pin="LA06_N" pad="C11"/>
+<connect gate="-A" pin="LA06_P" pad="C10"/>
+<connect gate="-A" pin="LA09_N" pad="D15"/>
+<connect gate="-A" pin="LA09_P" pad="D14"/>
+<connect gate="-A" pin="LA10_N" pad="C15"/>
+<connect gate="-A" pin="LA10_P" pad="C14"/>
+<connect gate="-A" pin="LA13_N" pad="D18"/>
+<connect gate="-A" pin="LA13_P" pad="D17"/>
+<connect gate="-A" pin="LA14_N" pad="C19"/>
+<connect gate="-A" pin="LA14_P" pad="C18"/>
+<connect gate="-A" pin="LA17_N_CC" pad="D21"/>
+<connect gate="-A" pin="LA17_P_CC" pad="D20"/>
+<connect gate="-A" pin="LA18_N_CC" pad="C23"/>
+<connect gate="-A" pin="LA18_P_CC" pad="C22"/>
+<connect gate="-A" pin="LA23_N" pad="D24"/>
+<connect gate="-A" pin="LA23_P" pad="D23"/>
+<connect gate="-A" pin="LA26_N" pad="D27"/>
+<connect gate="-A" pin="LA26_P" pad="D26"/>
+<connect gate="-A" pin="LA27_N" pad="C27"/>
+<connect gate="-A" pin="LA27_P" pad="C26"/>
+<connect gate="-A" pin="PG_C2M" pad="D1"/>
+<connect gate="-A" pin="SCL" pad="C30"/>
+<connect gate="-A" pin="SDA" pad="C31"/>
+<connect gate="-A" pin="TCK" pad="D29"/>
+<connect gate="-A" pin="TDI" pad="D30"/>
+<connect gate="-A" pin="TDO" pad="D31"/>
+<connect gate="-A" pin="TMS" pad="D33"/>
+<connect gate="-A" pin="TRST_L" pad="D34"/>
+<connect gate="-B" pin="CLK0_M2C_N" pad="H5"/>
+<connect gate="-B" pin="CLK0_M2C_P" pad="H4"/>
+<connect gate="-B" pin="CLK1_M2C_N" pad="G3"/>
+<connect gate="-B" pin="CLK1_M2C_P" pad="G2"/>
+<connect gate="-B" pin="GND@0" pad="G1"/>
+<connect gate="-B" pin="GND@1" pad="H3"/>
+<connect gate="-B" pin="GND@10" pad="H15"/>
+<connect gate="-B" pin="GND@11" pad="G17"/>
+<connect gate="-B" pin="GND@12" pad="H18"/>
+<connect gate="-B" pin="GND@13" pad="G20"/>
+<connect gate="-B" pin="GND@14" pad="H21"/>
+<connect gate="-B" pin="GND@15" pad="G23"/>
+<connect gate="-B" pin="GND@16" pad="H24"/>
+<connect gate="-B" pin="GND@17" pad="G26"/>
+<connect gate="-B" pin="GND@18" pad="H27"/>
+<connect gate="-B" pin="GND@19" pad="G29"/>
+<connect gate="-B" pin="GND@2" pad="G4"/>
+<connect gate="-B" pin="GND@20" pad="H30"/>
+<connect gate="-B" pin="GND@21" pad="G32"/>
+<connect gate="-B" pin="GND@22" pad="H33"/>
+<connect gate="-B" pin="GND@23" pad="G35"/>
+<connect gate="-B" pin="GND@24" pad="H36"/>
+<connect gate="-B" pin="GND@25" pad="G38"/>
+<connect gate="-B" pin="GND@26" pad="H39"/>
+<connect gate="-B" pin="GND@27" pad="G40"/>
+<connect gate="-B" pin="GND@3" pad="G5"/>
+<connect gate="-B" pin="GND@4" pad="H6"/>
+<connect gate="-B" pin="GND@5" pad="G8"/>
+<connect gate="-B" pin="GND@6" pad="H9"/>
+<connect gate="-B" pin="GND@7" pad="G11"/>
+<connect gate="-B" pin="GND@8" pad="H12"/>
+<connect gate="-B" pin="GND@9" pad="G14"/>
+<connect gate="-B" pin="LA00_N_CC" pad="G7"/>
+<connect gate="-B" pin="LA00_P_CC" pad="G6"/>
+<connect gate="-B" pin="LA02_N" pad="H8"/>
+<connect gate="-B" pin="LA02_P" pad="H7"/>
+<connect gate="-B" pin="LA03_N" pad="G10"/>
+<connect gate="-B" pin="LA03_P" pad="G9"/>
+<connect gate="-B" pin="LA04_N" pad="H11"/>
+<connect gate="-B" pin="LA04_P" pad="H10"/>
+<connect gate="-B" pin="LA07_N" pad="H14"/>
+<connect gate="-B" pin="LA07_P" pad="H13"/>
+<connect gate="-B" pin="LA08_N" pad="G13"/>
+<connect gate="-B" pin="LA08_P" pad="G12"/>
+<connect gate="-B" pin="LA11_N" pad="H17"/>
+<connect gate="-B" pin="LA11_P" pad="H16"/>
+<connect gate="-B" pin="LA12_N" pad="G16"/>
+<connect gate="-B" pin="LA12_P" pad="G15"/>
+<connect gate="-B" pin="LA15_N" pad="H20"/>
+<connect gate="-B" pin="LA15_P" pad="H19"/>
+<connect gate="-B" pin="LA16_N" pad="G19"/>
+<connect gate="-B" pin="LA16_P" pad="G18"/>
+<connect gate="-B" pin="LA19_N" pad="H23"/>
+<connect gate="-B" pin="LA19_P" pad="H22"/>
+<connect gate="-B" pin="LA20_N" pad="G22"/>
+<connect gate="-B" pin="LA20_P" pad="G21"/>
+<connect gate="-B" pin="LA21_N" pad="H26"/>
+<connect gate="-B" pin="LA21_P" pad="H25"/>
+<connect gate="-B" pin="LA22_N" pad="G25"/>
+<connect gate="-B" pin="LA22_P" pad="G24"/>
+<connect gate="-B" pin="LA24_N" pad="H29"/>
+<connect gate="-B" pin="LA24_P" pad="H28"/>
+<connect gate="-B" pin="LA25_N" pad="G28"/>
+<connect gate="-B" pin="LA25_P" pad="G27"/>
+<connect gate="-B" pin="LA28_N" pad="H32"/>
+<connect gate="-B" pin="LA28_P" pad="H31"/>
+<connect gate="-B" pin="LA29_N" pad="G31"/>
+<connect gate="-B" pin="LA29_P" pad="G30"/>
+<connect gate="-B" pin="LA30_N" pad="H35"/>
+<connect gate="-B" pin="LA30_P" pad="H34"/>
+<connect gate="-B" pin="LA31_N" pad="G34"/>
+<connect gate="-B" pin="LA31_P" pad="G33"/>
+<connect gate="-B" pin="LA32_N" pad="H38"/>
+<connect gate="-B" pin="LA32_P" pad="H37"/>
+<connect gate="-B" pin="LA33_N" pad="G37"/>
+<connect gate="-B" pin="LA33_P" pad="G36"/>
+<connect gate="-B" pin="PRSNT_M2C_L" pad="H2"/>
+<connect gate="-B" pin="VADJ@0" pad="G39"/>
+<connect gate="-B" pin="VADJ@1" pad="H40"/>
+<connect gate="-B" pin="VREF_A_M2C" pad="H1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FMC-LPC160-UMFT601X" prefix="ZED">
+<description>ASP-134604-01 	FMC Connector, lead free, (LPC), 160 I/O, male 	10 mm&lt;br&gt;
+ASP-134606-01 	FMC Connector, lead free, (LPC), 160 I/O, male 	8.50 mm&lt;br&gt;</description>
+<gates>
+<gate name="-A" symbol="BANK-80P-CD-UMFT601X" x="-30.48" y="0"/>
+<gate name="-B" symbol="BANK-80P-GH-UMFT601X" x="30.48" y="0"/>
+</gates>
+<devices>
+<device name="-FEMALE" package="ASP-134603-01">
+<connects>
+<connect gate="-A" pin="3P3V@0" pad="D36"/>
+<connect gate="-A" pin="3P3V@1" pad="D38"/>
+<connect gate="-A" pin="3P3V@2" pad="C39"/>
+<connect gate="-A" pin="3P3V@3" pad="D40"/>
+<connect gate="-A" pin="BE_N_2" pad="D15"/>
+<connect gate="-A" pin="BE_N_3" pad="D14"/>
+<connect gate="-A" pin="C10" pad="C10"/>
+<connect gate="-A" pin="C11" pad="C11"/>
+<connect gate="-A" pin="C2" pad="C2"/>
+<connect gate="-A" pin="C23" pad="C23"/>
+<connect gate="-A" pin="C3" pad="C3"/>
+<connect gate="-A" pin="C30" pad="C30"/>
+<connect gate="-A" pin="C31" pad="C31"/>
+<connect gate="-A" pin="C34" pad="C34"/>
+<connect gate="-A" pin="C35" pad="C35"/>
+<connect gate="-A" pin="C37" pad="C37"/>
+<connect gate="-A" pin="C6" pad="C6"/>
+<connect gate="-A" pin="C7" pad="C7"/>
+<connect gate="-A" pin="D1" pad="D1"/>
+<connect gate="-A" pin="D11" pad="D11"/>
+<connect gate="-A" pin="D12" pad="D12"/>
+<connect gate="-A" pin="D17" pad="D17"/>
+<connect gate="-A" pin="D18" pad="D18"/>
+<connect gate="-A" pin="D29" pad="D29"/>
+<connect gate="-A" pin="D30" pad="D30"/>
+<connect gate="-A" pin="D31" pad="D31"/>
+<connect gate="-A" pin="D32" pad="D32"/>
+<connect gate="-A" pin="D33" pad="D33"/>
+<connect gate="-A" pin="D34" pad="D34"/>
+<connect gate="-A" pin="D35" pad="D35"/>
+<connect gate="-A" pin="D4" pad="D4"/>
+<connect gate="-A" pin="D5" pad="D5"/>
+<connect gate="-A" pin="D8" pad="D8"/>
+<connect gate="-A" pin="D9" pad="D9"/>
+<connect gate="-A" pin="DATA16" pad="C27"/>
+<connect gate="-A" pin="DATA17" pad="D27"/>
+<connect gate="-A" pin="DATA18" pad="C26"/>
+<connect gate="-A" pin="DATA19" pad="D26"/>
+<connect gate="-A" pin="DATA24" pad="D24"/>
+<connect gate="-A" pin="DATA25" pad="D23"/>
+<connect gate="-A" pin="DATA30" pad="D21"/>
+<connect gate="-A" pin="DATA31" pad="D20"/>
+<connect gate="-A" pin="D_CLK" pad="C22"/>
+<connect gate="-A" pin="GND@0" pad="C1"/>
+<connect gate="-A" pin="GND@1" pad="D2"/>
+<connect gate="-A" pin="GND@10" pad="C12"/>
+<connect gate="-A" pin="GND@11" pad="C13"/>
+<connect gate="-A" pin="GND@12" pad="D13"/>
+<connect gate="-A" pin="GND@13" pad="C16"/>
+<connect gate="-A" pin="GND@14" pad="D16"/>
+<connect gate="-A" pin="GND@15" pad="C17"/>
+<connect gate="-A" pin="GND@16" pad="D19"/>
+<connect gate="-A" pin="GND@17" pad="C20"/>
+<connect gate="-A" pin="GND@18" pad="C21"/>
+<connect gate="-A" pin="GND@19" pad="D22"/>
+<connect gate="-A" pin="GND@2" pad="D3"/>
+<connect gate="-A" pin="GND@20" pad="C24"/>
+<connect gate="-A" pin="GND@21" pad="C25"/>
+<connect gate="-A" pin="GND@22" pad="D25"/>
+<connect gate="-A" pin="GND@23" pad="C28"/>
+<connect gate="-A" pin="GND@24" pad="D28"/>
+<connect gate="-A" pin="GND@25" pad="C29"/>
+<connect gate="-A" pin="GND@26" pad="C32"/>
+<connect gate="-A" pin="GND@27" pad="C33"/>
+<connect gate="-A" pin="GND@28" pad="C36"/>
+<connect gate="-A" pin="GND@29" pad="D37"/>
+<connect gate="-A" pin="GND@3" pad="C4"/>
+<connect gate="-A" pin="GND@30" pad="C38"/>
+<connect gate="-A" pin="GND@31" pad="D39"/>
+<connect gate="-A" pin="GND@32" pad="C40"/>
+<connect gate="-A" pin="GND@4" pad="C5"/>
+<connect gate="-A" pin="GND@5" pad="D6"/>
+<connect gate="-A" pin="GND@6" pad="D7"/>
+<connect gate="-A" pin="GND@7" pad="C8"/>
+<connect gate="-A" pin="GND@8" pad="C9"/>
+<connect gate="-A" pin="GND@9" pad="D10"/>
+<connect gate="-A" pin="GPIO_0" pad="C18"/>
+<connect gate="-A" pin="GPIO_1" pad="C19"/>
+<connect gate="-A" pin="RESET_N" pad="C15"/>
+<connect gate="-A" pin="WAKE_UP_N" pad="C14"/>
+<connect gate="-B" pin="BE_N_0" pad="H20"/>
+<connect gate="-B" pin="BE_N_1" pad="H19"/>
+<connect gate="-B" pin="DATA0" pad="H38"/>
+<connect gate="-B" pin="DATA1" pad="G37"/>
+<connect gate="-B" pin="DATA10" pad="H31"/>
+<connect gate="-B" pin="DATA11" pad="G30"/>
+<connect gate="-B" pin="DATA12" pad="H29"/>
+<connect gate="-B" pin="DATA13" pad="G28"/>
+<connect gate="-B" pin="DATA14" pad="H28"/>
+<connect gate="-B" pin="DATA15" pad="G27"/>
+<connect gate="-B" pin="DATA2" pad="H37"/>
+<connect gate="-B" pin="DATA20" pad="H26"/>
+<connect gate="-B" pin="DATA21" pad="G25"/>
+<connect gate="-B" pin="DATA22" pad="H25"/>
+<connect gate="-B" pin="DATA23" pad="G24"/>
+<connect gate="-B" pin="DATA26" pad="H23"/>
+<connect gate="-B" pin="DATA27" pad="H22"/>
+<connect gate="-B" pin="DATA28" pad="G22"/>
+<connect gate="-B" pin="DATA29" pad="G21"/>
+<connect gate="-B" pin="DATA3" pad="G36"/>
+<connect gate="-B" pin="DATA4" pad="H35"/>
+<connect gate="-B" pin="DATA5" pad="G34"/>
+<connect gate="-B" pin="DATA6" pad="H34"/>
+<connect gate="-B" pin="DATA7" pad="G33"/>
+<connect gate="-B" pin="DATA8" pad="H32"/>
+<connect gate="-B" pin="DATA9" pad="G31"/>
+<connect gate="-B" pin="G10" pad="G10"/>
+<connect gate="-B" pin="G15" pad="G15"/>
+<connect gate="-B" pin="G16" pad="G16"/>
+<connect gate="-B" pin="G18" pad="G18"/>
+<connect gate="-B" pin="G19" pad="G19"/>
+<connect gate="-B" pin="G2" pad="G2"/>
+<connect gate="-B" pin="G3" pad="G3"/>
+<connect gate="-B" pin="G9" pad="G9"/>
+<connect gate="-B" pin="GND@0" pad="G1"/>
+<connect gate="-B" pin="GND@1" pad="H3"/>
+<connect gate="-B" pin="GND@10" pad="H15"/>
+<connect gate="-B" pin="GND@11" pad="G17"/>
+<connect gate="-B" pin="GND@12" pad="H18"/>
+<connect gate="-B" pin="GND@13" pad="G20"/>
+<connect gate="-B" pin="GND@14" pad="H21"/>
+<connect gate="-B" pin="GND@15" pad="G23"/>
+<connect gate="-B" pin="GND@16" pad="H24"/>
+<connect gate="-B" pin="GND@17" pad="G26"/>
+<connect gate="-B" pin="GND@18" pad="H27"/>
+<connect gate="-B" pin="GND@19" pad="G29"/>
+<connect gate="-B" pin="GND@2" pad="G4"/>
+<connect gate="-B" pin="GND@20" pad="H30"/>
+<connect gate="-B" pin="GND@21" pad="G32"/>
+<connect gate="-B" pin="GND@22" pad="H33"/>
+<connect gate="-B" pin="GND@23" pad="G35"/>
+<connect gate="-B" pin="GND@24" pad="H36"/>
+<connect gate="-B" pin="GND@25" pad="G38"/>
+<connect gate="-B" pin="GND@26" pad="H39"/>
+<connect gate="-B" pin="GND@27" pad="G40"/>
+<connect gate="-B" pin="GND@3" pad="G5"/>
+<connect gate="-B" pin="GND@4" pad="H6"/>
+<connect gate="-B" pin="GND@5" pad="G8"/>
+<connect gate="-B" pin="GND@6" pad="H9"/>
+<connect gate="-B" pin="GND@7" pad="G11"/>
+<connect gate="-B" pin="GND@8" pad="H12"/>
+<connect gate="-B" pin="GND@9" pad="G14"/>
+<connect gate="-B" pin="H1" pad="H1"/>
+<connect gate="-B" pin="H10" pad="H10"/>
+<connect gate="-B" pin="H11" pad="H11"/>
+<connect gate="-B" pin="H16" pad="H16"/>
+<connect gate="-B" pin="H17" pad="H17"/>
+<connect gate="-B" pin="H2" pad="H2"/>
+<connect gate="-B" pin="H4" pad="H4"/>
+<connect gate="-B" pin="H5" pad="H5"/>
+<connect gate="-B" pin="H7" pad="H7"/>
+<connect gate="-B" pin="H8" pad="H8"/>
+<connect gate="-B" pin="OE_N" pad="G6"/>
+<connect gate="-B" pin="RD_N" pad="G7"/>
+<connect gate="-B" pin="RXF_N" pad="H13"/>
+<connect gate="-B" pin="SIWU_N" pad="G13"/>
+<connect gate="-B" pin="TXE_N" pad="H14"/>
+<connect gate="-B" pin="VADJ@0" pad="G39"/>
+<connect gate="-B" pin="VADJ@1" pad="H40"/>
+<connect gate="-B" pin="WR_N" pad="G12"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MALE" package="ASP-134604-01">
+<connects>
+<connect gate="-A" pin="3P3V@0" pad="D36"/>
+<connect gate="-A" pin="3P3V@1" pad="D38"/>
+<connect gate="-A" pin="3P3V@2" pad="C39"/>
+<connect gate="-A" pin="3P3V@3" pad="D40"/>
+<connect gate="-A" pin="BE_N_2" pad="D15"/>
+<connect gate="-A" pin="BE_N_3" pad="D14"/>
+<connect gate="-A" pin="C10" pad="C10"/>
+<connect gate="-A" pin="C11" pad="C11"/>
+<connect gate="-A" pin="C2" pad="C2"/>
+<connect gate="-A" pin="C23" pad="C23"/>
+<connect gate="-A" pin="C3" pad="C3"/>
+<connect gate="-A" pin="C30" pad="C30"/>
+<connect gate="-A" pin="C31" pad="C31"/>
+<connect gate="-A" pin="C34" pad="C34"/>
+<connect gate="-A" pin="C35" pad="C35"/>
+<connect gate="-A" pin="C37" pad="C37"/>
+<connect gate="-A" pin="C6" pad="C6"/>
+<connect gate="-A" pin="C7" pad="C7"/>
+<connect gate="-A" pin="D1" pad="D1"/>
+<connect gate="-A" pin="D11" pad="D11"/>
+<connect gate="-A" pin="D12" pad="D12"/>
+<connect gate="-A" pin="D17" pad="D17"/>
+<connect gate="-A" pin="D18" pad="D18"/>
+<connect gate="-A" pin="D29" pad="D29"/>
+<connect gate="-A" pin="D30" pad="D30"/>
+<connect gate="-A" pin="D31" pad="D31"/>
+<connect gate="-A" pin="D32" pad="D32"/>
+<connect gate="-A" pin="D33" pad="D33"/>
+<connect gate="-A" pin="D34" pad="D34"/>
+<connect gate="-A" pin="D35" pad="D35"/>
+<connect gate="-A" pin="D4" pad="D4"/>
+<connect gate="-A" pin="D5" pad="D5"/>
+<connect gate="-A" pin="D8" pad="D8"/>
+<connect gate="-A" pin="D9" pad="D9"/>
+<connect gate="-A" pin="DATA16" pad="C27"/>
+<connect gate="-A" pin="DATA17" pad="D27"/>
+<connect gate="-A" pin="DATA18" pad="C26"/>
+<connect gate="-A" pin="DATA19" pad="D26"/>
+<connect gate="-A" pin="DATA24" pad="D24"/>
+<connect gate="-A" pin="DATA25" pad="D23"/>
+<connect gate="-A" pin="DATA30" pad="D21"/>
+<connect gate="-A" pin="DATA31" pad="D20"/>
+<connect gate="-A" pin="D_CLK" pad="C22"/>
+<connect gate="-A" pin="GND@0" pad="C1"/>
+<connect gate="-A" pin="GND@1" pad="D2"/>
+<connect gate="-A" pin="GND@10" pad="C12"/>
+<connect gate="-A" pin="GND@11" pad="C13"/>
+<connect gate="-A" pin="GND@12" pad="D13"/>
+<connect gate="-A" pin="GND@13" pad="C16"/>
+<connect gate="-A" pin="GND@14" pad="D16"/>
+<connect gate="-A" pin="GND@15" pad="C17"/>
+<connect gate="-A" pin="GND@16" pad="D19"/>
+<connect gate="-A" pin="GND@17" pad="C20"/>
+<connect gate="-A" pin="GND@18" pad="C21"/>
+<connect gate="-A" pin="GND@19" pad="D22"/>
+<connect gate="-A" pin="GND@2" pad="D3"/>
+<connect gate="-A" pin="GND@20" pad="C24"/>
+<connect gate="-A" pin="GND@21" pad="C25"/>
+<connect gate="-A" pin="GND@22" pad="D25"/>
+<connect gate="-A" pin="GND@23" pad="C28"/>
+<connect gate="-A" pin="GND@24" pad="D28"/>
+<connect gate="-A" pin="GND@25" pad="C29"/>
+<connect gate="-A" pin="GND@26" pad="C32"/>
+<connect gate="-A" pin="GND@27" pad="C33"/>
+<connect gate="-A" pin="GND@28" pad="C36"/>
+<connect gate="-A" pin="GND@29" pad="D37"/>
+<connect gate="-A" pin="GND@3" pad="C4"/>
+<connect gate="-A" pin="GND@30" pad="C38"/>
+<connect gate="-A" pin="GND@31" pad="D39"/>
+<connect gate="-A" pin="GND@32" pad="C40"/>
+<connect gate="-A" pin="GND@4" pad="C5"/>
+<connect gate="-A" pin="GND@5" pad="D6"/>
+<connect gate="-A" pin="GND@6" pad="D7"/>
+<connect gate="-A" pin="GND@7" pad="C8"/>
+<connect gate="-A" pin="GND@8" pad="C9"/>
+<connect gate="-A" pin="GND@9" pad="D10"/>
+<connect gate="-A" pin="GPIO_0" pad="C18"/>
+<connect gate="-A" pin="GPIO_1" pad="C19"/>
+<connect gate="-A" pin="RESET_N" pad="C15"/>
+<connect gate="-A" pin="WAKE_UP_N" pad="C14"/>
+<connect gate="-B" pin="BE_N_0" pad="H20"/>
+<connect gate="-B" pin="BE_N_1" pad="H19"/>
+<connect gate="-B" pin="DATA0" pad="H38"/>
+<connect gate="-B" pin="DATA1" pad="G37"/>
+<connect gate="-B" pin="DATA10" pad="H31"/>
+<connect gate="-B" pin="DATA11" pad="G30"/>
+<connect gate="-B" pin="DATA12" pad="H29"/>
+<connect gate="-B" pin="DATA13" pad="G28"/>
+<connect gate="-B" pin="DATA14" pad="H28"/>
+<connect gate="-B" pin="DATA15" pad="G27"/>
+<connect gate="-B" pin="DATA2" pad="H37"/>
+<connect gate="-B" pin="DATA20" pad="H26"/>
+<connect gate="-B" pin="DATA21" pad="G25"/>
+<connect gate="-B" pin="DATA22" pad="H25"/>
+<connect gate="-B" pin="DATA23" pad="G24"/>
+<connect gate="-B" pin="DATA26" pad="H23"/>
+<connect gate="-B" pin="DATA27" pad="H22"/>
+<connect gate="-B" pin="DATA28" pad="G22"/>
+<connect gate="-B" pin="DATA29" pad="G21"/>
+<connect gate="-B" pin="DATA3" pad="G36"/>
+<connect gate="-B" pin="DATA4" pad="H35"/>
+<connect gate="-B" pin="DATA5" pad="G34"/>
+<connect gate="-B" pin="DATA6" pad="H34"/>
+<connect gate="-B" pin="DATA7" pad="G33"/>
+<connect gate="-B" pin="DATA8" pad="H32"/>
+<connect gate="-B" pin="DATA9" pad="G31"/>
+<connect gate="-B" pin="G10" pad="G10"/>
+<connect gate="-B" pin="G15" pad="G15"/>
+<connect gate="-B" pin="G16" pad="G16"/>
+<connect gate="-B" pin="G18" pad="G18"/>
+<connect gate="-B" pin="G19" pad="G19"/>
+<connect gate="-B" pin="G2" pad="G2"/>
+<connect gate="-B" pin="G3" pad="G3"/>
+<connect gate="-B" pin="G9" pad="G9"/>
+<connect gate="-B" pin="GND@0" pad="G1"/>
+<connect gate="-B" pin="GND@1" pad="H3"/>
+<connect gate="-B" pin="GND@10" pad="H15"/>
+<connect gate="-B" pin="GND@11" pad="G17"/>
+<connect gate="-B" pin="GND@12" pad="H18"/>
+<connect gate="-B" pin="GND@13" pad="G20"/>
+<connect gate="-B" pin="GND@14" pad="H21"/>
+<connect gate="-B" pin="GND@15" pad="G23"/>
+<connect gate="-B" pin="GND@16" pad="H24"/>
+<connect gate="-B" pin="GND@17" pad="G26"/>
+<connect gate="-B" pin="GND@18" pad="H27"/>
+<connect gate="-B" pin="GND@19" pad="G29"/>
+<connect gate="-B" pin="GND@2" pad="G4"/>
+<connect gate="-B" pin="GND@20" pad="H30"/>
+<connect gate="-B" pin="GND@21" pad="G32"/>
+<connect gate="-B" pin="GND@22" pad="H33"/>
+<connect gate="-B" pin="GND@23" pad="G35"/>
+<connect gate="-B" pin="GND@24" pad="H36"/>
+<connect gate="-B" pin="GND@25" pad="G38"/>
+<connect gate="-B" pin="GND@26" pad="H39"/>
+<connect gate="-B" pin="GND@27" pad="G40"/>
+<connect gate="-B" pin="GND@3" pad="G5"/>
+<connect gate="-B" pin="GND@4" pad="H6"/>
+<connect gate="-B" pin="GND@5" pad="G8"/>
+<connect gate="-B" pin="GND@6" pad="H9"/>
+<connect gate="-B" pin="GND@7" pad="G11"/>
+<connect gate="-B" pin="GND@8" pad="H12"/>
+<connect gate="-B" pin="GND@9" pad="G14"/>
+<connect gate="-B" pin="H1" pad="H1"/>
+<connect gate="-B" pin="H10" pad="H10"/>
+<connect gate="-B" pin="H11" pad="H11"/>
+<connect gate="-B" pin="H16" pad="H16"/>
+<connect gate="-B" pin="H17" pad="H17"/>
+<connect gate="-B" pin="H2" pad="H2"/>
+<connect gate="-B" pin="H4" pad="H4"/>
+<connect gate="-B" pin="H5" pad="H5"/>
+<connect gate="-B" pin="H7" pad="H7"/>
+<connect gate="-B" pin="H8" pad="H8"/>
+<connect gate="-B" pin="OE_N" pad="G6"/>
+<connect gate="-B" pin="RD_N" pad="G7"/>
+<connect gate="-B" pin="RXF_N" pad="H13"/>
+<connect gate="-B" pin="SIWU_N" pad="G13"/>
+<connect gate="-B" pin="TXE_N" pad="H14"/>
+<connect gate="-B" pin="VADJ@0" pad="G39"/>
+<connect gate="-B" pin="VADJ@1" pad="H40"/>
+<connect gate="-B" pin="WR_N" pad="G12"/>
 </connects>
 <technologies>
 <technology name=""/>
